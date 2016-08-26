@@ -20,9 +20,9 @@ for i in range(1, p.total_residue() + 1):
 scorefxn = ScoreFunction()
 scorefxn.set_weight(hbond_lr_bb, 1.0)
 scorefxn.set_weight(vdw, 1.0)
-#scorefxn.set_weight(env, 1.0)
+scorefxn.set_weight(env, 1.0)
 scorefxn.set_weight(pair, 1.0)
-#scorefxn.set_weight(cbeta, 1.0)
+scorefxn.set_weight(cbeta, 1.0)
 
 #set up simulation parameters
 ncycles = 50000
@@ -51,4 +51,4 @@ for i in range(1, ncycles):
     #!dump into pdb file
     mc.recover_low(p)
 
-dump_pdb(p, "../models/CueR_1a24.pdb")
+dump_pdb(p, "../models/CueR_1a2345.pdb")
