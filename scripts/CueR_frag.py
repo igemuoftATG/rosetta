@@ -19,13 +19,13 @@ for i in range(1, p.total_residue() + 1):
 #setup score function
 scorefxn = ScoreFunction()
 scorefxn.set_weight(hbond_lr_bb, 1.0)
-#scorefxn.set_weight(vdw, 1.0)
+scorefxn.set_weight(vdw, 1.0)
 #scorefxn.set_weight(env, 1.0)
 #scorefxn.set_weight(pair, 1.0)
 #scorefxn.set_weight(cbeta, 1.0)
 
 #set up simulation parameters
-ncycles = 10
+ncycles = 50000
 kT = 1.0
 mc = MonteCarlo(p, scorefxn, kT)
 
@@ -41,15 +41,14 @@ cost = GunnCost()
 frag_mover = SmoothFragmentMover(fragset, movemap, cost)
 
 #run simulation
-for n in range(10):
-    for i in range(1, ncycles):
-        print i
-        frag_mover.apply(p)
-        mc.boltzmann(p)
-        mc.show_scores()
-        mc.show_counters()
-        mc.show_state()
-        #!dump into pdb file
-        mc.recover_low(p)
+for i in range(1, ncycles):
+    print i
+    frag_mover.apply(p)
+    mc.boltzmann(p)
+    mc.show_scores()
+    mc.show_counters()
+    mc.show_state()
+    #!dump into pdb file
+    mc.recover_low(p)
 
-dump_pdb(p, "../models/CueR_1a.pdb")
+dump_pdb(p, "../models/CueR_1a2.pdb")
