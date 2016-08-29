@@ -28,7 +28,7 @@ scorefxn.set_weight(pair, 1.0)
 scorefxn.set_weight(cbeta, 1.0)
 
 #set up simulation parameters
-ncycles = 5000
+ncycles = 50000
 kT = 1.0
 mc = MonteCarlo(p, scorefxn, kT)
 
@@ -49,7 +49,7 @@ for i in range(1, ncycles):
 
 for i in range(1, ncycles):
 	print i
-    shear_mover.apply(p)
+        shear_mover.apply(p)
 	mc.boltzmann(p)
 	mc.show_scores()
 	mc.show_counters()
