@@ -37,10 +37,10 @@ def perturb_bb (pose):
 	resnum = randint(1, pose.total_residue())
 	target.set_phi(resnum, 1q07_A.phi(resnum)-25+random()*50)
 	target.set_psi(resnum, 1q07_A.psi(resnum)-25+random()*50)
-        print "set phi to: ", target.phi(resum), "set psi to: ", target.psi(resum)
-        #pose.set_phi(resnum, -57)
+    print "set phi to: ", target.phi(resum), "set psi to: ", target.psi(resum)
+    #pose.set_phi(resnum, -57)
 	#pose.set_psi(resnum, -47)
-	return target 
+	return target
 
 #run simulation
 for i in range(1, ncycles):

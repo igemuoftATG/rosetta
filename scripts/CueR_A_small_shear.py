@@ -10,7 +10,7 @@ init_pose = Pose()
 
 #making an initial pose with A chain of CueR
 #make_pose_from_sequence(init_pose, "MNISDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG","centroid_rot")
-make_pose_from_sequence(p, "MNISDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG","centroid")
+make_pose_from_sequence(init_pose, "MNISDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRH","fa")
 
 p = Pose()
 p.assign(init_pose)
@@ -36,7 +36,7 @@ mc = MonteCarlo(p, scorefxn, kT)
 movemap = MoveMap()
 movemap.set_bb(True)
 small_mover = SmallMover(movemap, kT, 5)
-small_mover.angle_max('H',10)
+shear_mover = ShearMover(movemap, kT, 5)
 
 #run simulation
 for i in range(1, ncycles):
@@ -47,6 +47,14 @@ for i in range(1, ncycles):
 	mc.show_counters()
 	mc.show_state()
 
+for i in range(1, ncycles):
+	print i
+    shear_mover.apply(p)
+	mc.boltzmann(p)
+	mc.show_scores()
+	mc.show_counters()
+	mc.show_state()
+
 #dump into pdb file
 mc.recover_low(p)
-dump_pdb(p, "../models/CueR_small.pdb")
+dump_pdb(p, "../models/CueR_small_shear.pdb")
