@@ -10,9 +10,9 @@
 -fold_and_dock:rotate_anchor_to_x
 -run:reinitialize_mover_for_each_job
 #-score:weights cen_std
--score:weights score12_full
+#-score:weights score12_full
 #-restore_pre_talaris_2013_behavior
-#-score:weights score13_env_hb
+-score:weights score13_env_hb
 #-score:find_neighbors_3dgrid
 #-stage2_patch score_membrane_s2.wts_patch
 #-stage3a_patch score_membrane_s3a.wts_patch
@@ -34,7 +34,7 @@
 #-out:file:silent_struct_type binary
 -relax:quick
 -relax:jump_move
--out:path:pdb ./
+-out:path:pdb ./pdb/
 -out:pdb
 #-out:file:output_virtualx
 #-out:file:silent CueR.out
