@@ -1,0 +1,2 @@
+#!/bin/bash
+minirosetta.linuxgccrelease @ flags  -run:constant_seed -nodelay
