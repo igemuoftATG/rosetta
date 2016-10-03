@@ -12,12 +12,10 @@
 #-score:weights cen_std
 #-score:weights score12_full
 #-restore_pre_talaris_2013_behavior
--score:weights score13_env_hb
+#-score:weights score13_env_hb
 #-score:find_neighbors_3dgrid
-#-stage2_patch score_membrane_s2.wts_patch
-#-stage3a_patch score_membrane_s3a.wts_patch
-#-stage3b_patch score_membrane_s3b.wts_patch
-#-stage4_patch score_membrane_s4.wts_patch
+-score:weights talaris2013
+
 -abinitio::recover_low_in_stages 0
 -abinitio:rg_reweight 0.001
 -abinitio:use_filters false
