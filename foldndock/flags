@@ -10,9 +10,9 @@
 -fold_and_dock:rotate_anchor_to_x
 -run:reinitialize_mover_for_each_job
 #-score:weights cen_std
-#-score:weights score12_full
+-score:weights score12_full
 #-restore_pre_talaris_2013_behavior
-#-score:weights score13_env_hb
+-score:weights score13_env_hb
 #-score:find_neighbors_3dgrid
 -score:weights talaris2013
 
