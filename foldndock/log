@@ -1,0 +1,1819 @@
+core.init: Rosetta version exported  from http://www.rosettacommons.org
+core.init: command: minirosetta.linuxgccrelease @ flags -run:constant_seed -nodelay
+core.init: Constant seed mode, seed=1111111 seed_offset=0 real_seed=1111111
+core.init.random: RandomGenerator:init: Normal mode, seed=1111111 RG_type=mt19937
+protocols.topo_broker: instantiate CLAIMER: FoldandDockClaimer
+protocols.topo_broker: Reading FragmentFiles from cmd.
+core.io.fragments: reading fragments from file: CueR-9.txt ... 
+core.io.fragments: rosetta++ fileformat detected! Calling legacy reader... 
+core.fragment: set max frag length 9
+core.fragments.ConstantLengthFragSet: finished reading top 25 9mer fragments from file CueR-9.txt
+core.io.fragments: reading fragments from file: CueR-3.txt ... 
+core.io.fragments: rosetta++ fileformat detected! Calling legacy reader... 
+core.fragment: set max frag length 3
+core.fragments.ConstantLengthFragSet: finished reading top 200 3mer fragments from file CueR-3.txt
+protocols.topo_broker:  Adding claimers for fragments with label 'DEFAULT'.
+core.fragment: generate insert map from Movemap:
+***************************************************************************************************************************************
+core.fragment: generate insert map from Movemap:
+***************************************************************************************************************************************
+core.fragment: generate insert map from Movemap:
+***************************************************************************************************************************************
+protocols.simple_moves.FragmentMover:  got new fragments with size 135
+protocols.simple_moves.FragmentMover:  got new fragments with size 135
+protocols.simple_moves.FragmentMover:  got new fragments with size 135
+core.fragment: generate insert map from Movemap:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+core.fragment: compute strand/loop fractions for 135 residues... 
+protocols.topo_broker: All sequence claims: 
+
+protocols.topo_broker: Read command-line to instantiate a default SequenceClaimer. Read sequence is 'SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG' from command-line (-in:file:fasta or similar) specified file CueR_fasta
+protocols.abinitio: creating standard scoring functions
+core.chemical: New atom type: Nbb N
+core.chemical: New atom type: CAbb C
+core.chemical: New atom type: CB C
+core.chemical: New atom type: CObb C
+core.chemical: New atom type: OCbb O
+core.chemical: New atom type: HNbb H
+core.chemical: New atom type: CEN_ALA X
+core.chemical: New atom type: CEN_CYS X
+core.chemical: New atom type: CEN_ASP X
+core.chemical: New atom type: CEN_GLU X
+core.chemical: New atom type: CEN_PHE X
+core.chemical: New atom type: CEN_GLY X
+core.chemical: New atom type: CEN_HIS X
+core.chemical: New atom type: CEN_ILE X
+core.chemical: New atom type: CEN_LYS X
+core.chemical: New atom type: CEN_LEU X
+core.chemical: New atom type: CEN_MET X
+core.chemical: New atom type: CEN_ASN X
+core.chemical: New atom type: CEN_PRO X
+core.chemical: New atom type: CEN_GLN X
+core.chemical: New atom type: CEN_ARG X
+core.chemical: New atom type: CEN_SER X
+core.chemical: New atom type: CEN_THR X
+core.chemical: New atom type: CEN_VAL X
+core.chemical: New atom type: CEN_TRP X
+core.chemical: New atom type: CEN_TYR X
+core.chemical: New atom type: REPLS Z
+core.chemical: New atom type: HREPS Z
+core.chemical: New atom type: VIRT X
+core.chemical: New atom type: SUCK Z
+core.chemical: New atom type: MPct X
+core.chemical: New atom type: MPnm X
+core.chemical: New atom type: MPdp X
+core.chemical: New atom type: MPtk X
+core.chemical: New atom type: Phos P
+core.chemical: New atom type: OOC O
+core.chemical: New atom type: ONH2 O
+core.chemical: New atom type: CH2 C
+core.chemical: New atom type: CH1 C
+core.chemical: New atom type: OH O
+core.chemical: New atom type: Ntrp N
+core.chemical: New atom type: aroC C
+core.chemical: New atom type: Nhis N
+core.chemical: New atom type: NH2O N
+core.chemical: New atom type: Hapo H
+core.chemical: New atom type: Hpol H
+core.chemical: New atom type: Haro H
+core.chemical: New atom type: CH3 C
+core.chemical: New atom type: Mg2p MG
+core.chemical: New atom type: Ca2p CA
+core.chemical: New atom type: COO C
+core.chemical: New atom type: Nlys N
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/env_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cbeta_den.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/pair_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cenpack_log.txt
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+basic.io.database: Database file opened: scoring/score_functions/SecondaryStructurePotential/phi.theta.36.HS.resmooth
+basic.io.database: Database file opened: scoring/score_functions/SecondaryStructurePotential/phi.theta.36.SS.resmooth
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+protocols.abinitio: creating standard scoring functions
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: cen_std
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+protocols.relax.FastRelax: ================== Using default script ==================
+protocols.relax.FastRelax: repeat 5
+protocols.relax.FastRelax: ramp_repack_min 0.02  0.01     1.0
+protocols.relax.FastRelax: ramp_repack_min 0.250 0.01     0.5
+protocols.relax.FastRelax: ramp_repack_min 0.550 0.01     0.0
+protocols.relax.FastRelax: ramp_repack_min 1     0.00001  0.0
+protocols.relax.FastRelax: accept_to_best
+protocols.relax.FastRelax: endrepeat 
+protocols.comparative_modeling.GenericJobInputter: Instantiate GenericJobInputter
+protocols.comparative_modeling.GenericJobInputter: GenericJobInputter::fill_jobs
+protocols.comparative_modeling.GenericJobInputter: create job index 1
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+protocols.jd2.FileJobOutputter: FileJobOutputter ctor
+protocols.jd2.SilentFileJobOutputter: SilentFileJobOutputter setup for file .//CueR.out
+protocols.jd2.JobDistributor: Starting job S_0001
+protocols.comparative_modeling.GenericJobInputter: GenericJobInputter::pose_from_job
+core.chemical.ChemicalManager: CHEMICAL_MANAGER: read residue types: centroid
+core.chemical.ElementSet: New element: H
+core.chemical.ElementSet: New element: He
+core.chemical.ElementSet: New element: Li
+core.chemical.ElementSet: New element: Be
+core.chemical.ElementSet: New element: B
+core.chemical.ElementSet: New element: C
+core.chemical.ElementSet: New element: N
+core.chemical.ElementSet: New element: O
+core.chemical.ElementSet: New element: F
+core.chemical.ElementSet: New element: Ne
+core.chemical.ElementSet: New element: Na
+core.chemical.ElementSet: New element: Mg
+core.chemical.ElementSet: New element: Al
+core.chemical.ElementSet: New element: Si
+core.chemical.ElementSet: New element: P
+core.chemical.ElementSet: New element: S
+core.chemical.ElementSet: New element: Cl
+core.chemical.ElementSet: New element: Ar
+core.chemical.ElementSet: New element: K
+core.chemical.ElementSet: New element: Ca
+core.chemical.ElementSet: New element: Sc
+core.chemical.ElementSet: New element: Ti
+core.chemical.ElementSet: New element: V
+core.chemical.ElementSet: New element: Cr
+core.chemical.ElementSet: New element: Mn
+core.chemical.ElementSet: New element: Fe
+core.chemical.ElementSet: New element: Co
+core.chemical.ElementSet: New element: Ni
+core.chemical.ElementSet: New element: Cu
+core.chemical.ElementSet: New element: Zn
+core.chemical.ElementSet: New element: Ga
+core.chemical.ElementSet: New element: Ge
+core.chemical.ElementSet: New element: As
+core.chemical.ElementSet: New element: Se
+core.chemical.ElementSet: New element: Br
+core.chemical.ElementSet: New element: Kr
+core.chemical.ElementSet: New element: Rb
+core.chemical.ElementSet: New element: Sr
+core.chemical.ElementSet: New element: Y
+core.chemical.ElementSet: New element: Zr
+core.chemical.ElementSet: New element: Nb
+core.chemical.ElementSet: New element: Mo
+core.chemical.ElementSet: New element: Tc
+core.chemical.ElementSet: New element: Ru
+core.chemical.ElementSet: New element: Rh
+core.chemical.ElementSet: New element: Pd
+core.chemical.ElementSet: New element: Ag
+core.chemical.ElementSet: New element: Cd
+core.chemical.ElementSet: New element: In
+core.chemical.ElementSet: New element: Sn
+core.chemical.ElementSet: New element: Sb
+core.chemical.ElementSet: New element: Te
+core.chemical.ElementSet: New element: I
+core.chemical.ElementSet: New element: Xe
+core.chemical.ElementSet: New element: Cs
+core.chemical.ElementSet: New element: Ba
+core.chemical.ElementSet: New element: La
+core.chemical.ElementSet: New element: Ce
+core.chemical.ElementSet: New element: Pr
+core.chemical.ElementSet: New element: Nd
+core.chemical.ElementSet: New element: Pm
+core.chemical.ElementSet: New element: Sm
+core.chemical.ElementSet: New element: Eu
+core.chemical.ElementSet: New element: Gd
+core.chemical.ElementSet: New element: Tb
+core.chemical.ElementSet: New element: Dy
+core.chemical.ElementSet: New element: Ho
+core.chemical.ElementSet: New element: Er
+core.chemical.ElementSet: New element: Tm
+core.chemical.ElementSet: New element: Yb
+core.chemical.ElementSet: New element: Lu
+core.chemical.ElementSet: New element: Hf
+core.chemical.ElementSet: New element: Ta
+core.chemical.ElementSet: New element: W
+core.chemical.ElementSet: New element: Re
+core.chemical.ElementSet: New element: Os
+core.chemical.ElementSet: New element: Ir
+core.chemical.ElementSet: New element: Pt
+core.chemical.ElementSet: New element: Au
+core.chemical.ElementSet: New element: Hg
+core.chemical.ElementSet: New element: Tl
+core.chemical.ElementSet: New element: Pb
+core.chemical.ElementSet: New element: Bi
+core.chemical.ElementSet: New element: Po
+core.chemical.ElementSet: New element: At
+core.chemical.ElementSet: New element: Rn
+core.chemical.ElementSet: New element: Fr
+core.chemical.ElementSet: New element: Ra
+core.chemical.ElementSet: New element: Ac
+core.chemical.ElementSet: New element: Th
+core.chemical.ElementSet: New element: Pa
+core.chemical.ElementSet: New element: U
+core.chemical.ElementSet: New element: Np
+core.chemical.ElementSet: New element: Pu
+core.chemical.ElementSet: New element: Am
+core.chemical.ElementSet: New element: Cm
+core.chemical.ElementSet: New element: Bk
+core.chemical.ElementSet: New element: Cf
+core.chemical.ElementSet: New element: Es
+core.chemical.ElementSet: New element: Fm
+core.chemical.ElementSet: New element: Md
+core.chemical.ElementSet: New element: No
+core.chemical.ElementSet: New element: Lr
+core.chemical.ElementSet: New element: Rf
+core.chemical.ElementSet: New element: Db
+core.chemical.ElementSet: New element: Sg
+core.chemical.ElementSet: New element: Bh
+core.chemical.ElementSet: New element: Hs
+core.chemical.ElementSet: New element: Mt
+core.chemical.ElementSet: New element: Z
+core.chemical.ElementSet: New element: X
+core.chemical.ElementSet: New element: Z
+core.chemical: New MM atom type: C
+core.chemical: New MM atom type: CA
+core.chemical: New MM atom type: CAP
+core.chemical: New MM atom type: CC
+core.chemical: New MM atom type: CD
+core.chemical: New MM atom type: CE1
+core.chemical: New MM atom type: CE2
+core.chemical: New MM atom type: CF1
+core.chemical: New MM atom type: CF3
+core.chemical: New MM atom type: CN1
+core.chemical: New MM atom type: CN1T
+core.chemical: New MM atom type: CN2
+core.chemical: New MM atom type: CN3
+core.chemical: New MM atom type: CN3T
+core.chemical: New MM atom type: CN4
+core.chemical: New MM atom type: CN5
+core.chemical: New MM atom type: CN5G
+core.chemical: New MM atom type: CN7
+core.chemical: New MM atom type: CN7B
+core.chemical: New MM atom type: CN8
+core.chemical: New MM atom type: CN8B
+core.chemical: New MM atom type: CN9
+core.chemical: New MM atom type: CP1
+core.chemical: New MM atom type: CP2
+core.chemical: New MM atom type: CP3
+core.chemical: New MM atom type: CPH1
+core.chemical: New MM atom type: CPH2
+core.chemical: New MM atom type: CPT
+core.chemical: New MM atom type: CT1
+core.chemical: New MM atom type: CT2
+core.chemical: New MM atom type: CT3
+core.chemical: New MM atom type: CY
+core.chemical: New MM atom type: H
+core.chemical: New MM atom type: HA
+core.chemical: New MM atom type: HB
+core.chemical: New MM atom type: HC
+core.chemical: New MM atom type: HE1
+core.chemical: New MM atom type: HE2
+core.chemical: New MM atom type: HN1
+core.chemical: New MM atom type: HN2
+core.chemical: New MM atom type: HN3
+core.chemical: New MM atom type: HN7
+core.chemical: New MM atom type: HN8
+core.chemical: New MM atom type: HN9
+core.chemical: New MM atom type: HP
+core.chemical: New MM atom type: HR1
+core.chemical: New MM atom type: HR2
+core.chemical: New MM atom type: HR3
+core.chemical: New MM atom type: HS
+core.chemical: New MM atom type: N
+core.chemical: New MM atom type: NC2
+core.chemical: New MM atom type: NH1
+core.chemical: New MM atom type: NH2
+core.chemical: New MM atom type: NH3
+core.chemical: New MM atom type: NN1
+core.chemical: New MM atom type: NN2
+core.chemical: New MM atom type: NN2B
+core.chemical: New MM atom type: NN2U
+core.chemical: New MM atom type: NN2G
+core.chemical: New MM atom type: NN3
+core.chemical: New MM atom type: NN3A
+core.chemical: New MM atom type: NN3G
+core.chemical: New MM atom type: NN4
+core.chemical: New MM atom type: NP
+core.chemical: New MM atom type: NR1
+core.chemical: New MM atom type: NR2
+core.chemical: New MM atom type: NR3
+core.chemical: New MM atom type: NZ1
+core.chemical: New MM atom type: NZ2
+core.chemical: New MM atom type: NY
+core.chemical: New MM atom type: O
+core.chemical: New MM atom type: OB
+core.chemical: New MM atom type: OC
+core.chemical: New MM atom type: OE
+core.chemical: New MM atom type: OH1
+core.chemical: New MM atom type: ON1
+core.chemical: New MM atom type: ON1C
+core.chemical: New MM atom type: ON2
+core.chemical: New MM atom type: ON3
+core.chemical: New MM atom type: ON6
+core.chemical: New MM atom type: OS
+core.chemical: New MM atom type: OT1
+core.chemical: New MM atom type: OT2
+core.chemical: New MM atom type: P
+core.chemical: New MM atom type: S
+core.chemical: New MM atom type: SM
+core.chemical: New MM atom type: B2
+core.chemical: New MM atom type: F1
+core.chemical: New MM atom type: F3
+core.chemical: New MM atom type: Fe2p
+core.chemical: New MM atom type: Fe3p
+core.chemical: New MM atom type: Mg2p
+core.chemical: New MM atom type: Ca2p
+core.chemical: New MM atom type: Na1p
+core.chemical: New MM atom type: K1p
+core.chemical: New MM atom type: Zn2p
+core.chemical: New MM atom type: Co2p
+core.chemical: New MM atom type: Cu2p
+core.chemical: New MM atom type: CL
+core.chemical: New MM atom type: BR
+core.chemical: New MM atom type: I
+core.chemical: New MM atom type: NXX
+core.chemical: New MM atom type: X
+core.chemical: New MM atom type: VIRT
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/D_AA.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/CtermProtein.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/NtermProtein.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/disulfide.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/protein_cutpoint_upper.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/protein_cutpoint_lower.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/VirtualBB.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/protein_centroid_with_HA.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/VirtualNterm.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/N_acetylated.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/C_methylamidated.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/RepulsiveOnly_centroid.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/ser_phosphorylated.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/thr_phosphorylated.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/CtermConnect.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/NtermConnect.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/ShoveBB.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/nucleic/dna/LowerDNA.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/nucleic/dna/UpperDNA.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/nucleic/dna/VirtualDNAPhosphate.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/nucleic/rna/LowerRNA.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/nucleic/rna/UpperRNA.txt
+core.chemical: Reading patch file: /home/rosetta1/rosetta/main/database/chemical/residue_type_sets/centroid/patches/nucleic/rna/Virtual_Phosphate.txt
+core.chemical.ResidueTypeSet: Finished initializing centroid residue type set.  Created 1834 residue types
+core.chemical.ResidueTypeSet: Total time to initialize 0.04 seconds.
+core.pose: one_letter: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.pose: seq_in: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.chemical.PatchOperations.hh: SetPolymerConnectAtom::apply: NONE -1
+core.chemical.ResidueType: ERASING LOWER_CONNECT: 1 lcid: 2
+core.chemical.PatchOperations.hh: AddProperty::apply: LOWER_TERMINUS
+core.chemical.PatchOperations.hh: SetICoor::apply: H N CA C
+core.chemical: successfully patched: SER to: SER:NtermProteinFull
+core.chemical.ResidueType: Residue dstor
+core.chemical.ResidueType: Residue dstor
+core.pose: residue_types_from_sequence():  seqpos: 1 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 2 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 3 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 4 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 5 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 6 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 7 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 8 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 9 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 10 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 11 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 12 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 13 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 14 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 15 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 16 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 17 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 18 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 19 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 20 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 21 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 22 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 23 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 24 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 25 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 26 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 27 aa M MET
+core.pose: residue_types_from_sequence():  seqpos: 28 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 29 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 30 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 31 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 32 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 33 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 34 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 35 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 36 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 37 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 38 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 39 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 40 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 41 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 42 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 43 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 44 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 45 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 46 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 47 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 48 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 49 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 50 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 51 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 52 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 53 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 54 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 55 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 56 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 57 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 58 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 59 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 60 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 61 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 62 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 63 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 64 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 65 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 66 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 67 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 68 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 69 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 70 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 71 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 72 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 73 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 74 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 75 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 76 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 77 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 78 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 79 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 80 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 81 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 82 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 83 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 84 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 85 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 86 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 87 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 88 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 89 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 90 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 91 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 92 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 93 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 94 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 95 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 96 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 97 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 98 aa M MET
+core.pose: residue_types_from_sequence():  seqpos: 99 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 100 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 101 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 102 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 103 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 104 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 105 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 106 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 107 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 108 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 109 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 110 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 111 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 112 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 113 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 114 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 115 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 116 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 117 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 118 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 119 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 120 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 121 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 122 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 123 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 124 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 125 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 126 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 127 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 128 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 129 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 130 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 131 aa A ALA
+core.chemical.PatchOperations.hh: SetPolymerConnectAtom::apply: NONE 1
+core.chemical.ResidueType: ERASING UPPER_CONNECT: 2 lcid: 1
+core.chemical.PatchOperations.hh: AddProperty::apply: UPPER_TERMINUS
+core.chemical.PatchOperations.hh: SetICoor::apply: O C CA N
+core.chemical: successfully patched: GLY to: GLY:CtermProteinFull
+core.chemical.ResidueType: Residue dstor
+core.chemical.ResidueType: Residue dstor
+core.pose: residue_types_from_sequence():  seqpos: 132 aa G GLY
+core.pose: make_pose_from_sequence():  seqpos: 1 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.pose: make_pose_from_sequence():  seqpos: 2 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 2 -1 
+core.pose: make_pose_from_sequence():  seqpos: 3 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 3 -1 
+core.pose: make_pose_from_sequence():  seqpos: 4 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 4 -1 
+core.pose: make_pose_from_sequence():  seqpos: 5 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 5 -1 
+core.pose: make_pose_from_sequence():  seqpos: 6 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 6 -1 
+core.pose: make_pose_from_sequence():  seqpos: 7 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 7 -1 
+core.pose: make_pose_from_sequence():  seqpos: 8 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 8 -1 
+core.pose: make_pose_from_sequence():  seqpos: 9 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 9 -1 
+core.pose: make_pose_from_sequence():  seqpos: 10 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 10 -1 
+core.pose: make_pose_from_sequence():  seqpos: 11 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 11 -1 
+core.pose: make_pose_from_sequence():  seqpos: 12 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 12 -1 
+core.pose: make_pose_from_sequence():  seqpos: 13 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 13 -1 
+core.pose: make_pose_from_sequence():  seqpos: 14 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 14 -1 
+core.pose: make_pose_from_sequence():  seqpos: 15 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 15 -1 
+core.pose: make_pose_from_sequence():  seqpos: 16 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 16 -1 
+core.pose: make_pose_from_sequence():  seqpos: 17 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 17 -1 
+core.pose: make_pose_from_sequence():  seqpos: 18 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 18 -1 
+core.pose: make_pose_from_sequence():  seqpos: 19 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 19 -1 
+core.pose: make_pose_from_sequence():  seqpos: 20 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 20 -1 
+core.pose: make_pose_from_sequence():  seqpos: 21 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 21 -1 
+core.pose: make_pose_from_sequence():  seqpos: 22 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 22 -1 
+core.pose: make_pose_from_sequence():  seqpos: 23 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 23 -1 
+core.pose: make_pose_from_sequence():  seqpos: 24 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 24 -1 
+core.pose: make_pose_from_sequence():  seqpos: 25 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 25 -1 
+core.pose: make_pose_from_sequence():  seqpos: 26 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 26 -1 
+core.pose: make_pose_from_sequence():  seqpos: 27 MET
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 27 -1 
+core.pose: make_pose_from_sequence():  seqpos: 28 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 28 -1 
+core.pose: make_pose_from_sequence():  seqpos: 29 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 29 -1 
+core.pose: make_pose_from_sequence():  seqpos: 30 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 30 -1 
+core.pose: make_pose_from_sequence():  seqpos: 31 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 31 -1 
+core.pose: make_pose_from_sequence():  seqpos: 32 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 32 -1 
+core.pose: make_pose_from_sequence():  seqpos: 33 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 33 -1 
+core.pose: make_pose_from_sequence():  seqpos: 34 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 34 -1 
+core.pose: make_pose_from_sequence():  seqpos: 35 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 35 -1 
+core.pose: make_pose_from_sequence():  seqpos: 36 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 36 -1 
+core.pose: make_pose_from_sequence():  seqpos: 37 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 37 -1 
+core.pose: make_pose_from_sequence():  seqpos: 38 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 38 -1 
+core.pose: make_pose_from_sequence():  seqpos: 39 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 39 -1 
+core.pose: make_pose_from_sequence():  seqpos: 40 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 40 -1 
+core.pose: make_pose_from_sequence():  seqpos: 41 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 41 -1 
+core.pose: make_pose_from_sequence():  seqpos: 42 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 42 -1 
+core.pose: make_pose_from_sequence():  seqpos: 43 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 43 -1 
+core.pose: make_pose_from_sequence():  seqpos: 44 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 44 -1 
+core.pose: make_pose_from_sequence():  seqpos: 45 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 45 -1 
+core.pose: make_pose_from_sequence():  seqpos: 46 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 46 -1 
+core.pose: make_pose_from_sequence():  seqpos: 47 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 47 -1 
+core.pose: make_pose_from_sequence():  seqpos: 48 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 48 -1 
+core.pose: make_pose_from_sequence():  seqpos: 49 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 49 -1 
+core.pose: make_pose_from_sequence():  seqpos: 50 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 50 -1 
+core.pose: make_pose_from_sequence():  seqpos: 51 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 51 -1 
+core.pose: make_pose_from_sequence():  seqpos: 52 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 52 -1 
+core.pose: make_pose_from_sequence():  seqpos: 53 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 53 -1 
+core.pose: make_pose_from_sequence():  seqpos: 54 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 54 -1 
+core.pose: make_pose_from_sequence():  seqpos: 55 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 55 -1 
+core.pose: make_pose_from_sequence():  seqpos: 56 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 56 -1 
+core.pose: make_pose_from_sequence():  seqpos: 57 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 57 -1 
+core.pose: make_pose_from_sequence():  seqpos: 58 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 58 -1 
+core.pose: make_pose_from_sequence():  seqpos: 59 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 59 -1 
+core.pose: make_pose_from_sequence():  seqpos: 60 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 60 -1 
+core.pose: make_pose_from_sequence():  seqpos: 61 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 61 -1 
+core.pose: make_pose_from_sequence():  seqpos: 62 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 62 -1 
+core.pose: make_pose_from_sequence():  seqpos: 63 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 63 -1 
+core.pose: make_pose_from_sequence():  seqpos: 64 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 64 -1 
+core.pose: make_pose_from_sequence():  seqpos: 65 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 65 -1 
+core.pose: make_pose_from_sequence():  seqpos: 66 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 66 -1 
+core.pose: make_pose_from_sequence():  seqpos: 67 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 67 -1 
+core.pose: make_pose_from_sequence():  seqpos: 68 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 68 -1 
+core.pose: make_pose_from_sequence():  seqpos: 69 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 69 -1 
+core.pose: make_pose_from_sequence():  seqpos: 70 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 70 -1 
+core.pose: make_pose_from_sequence():  seqpos: 71 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 71 -1 
+core.pose: make_pose_from_sequence():  seqpos: 72 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 72 -1 
+core.pose: make_pose_from_sequence():  seqpos: 73 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 73 -1 
+core.pose: make_pose_from_sequence():  seqpos: 74 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 74 -1 
+core.pose: make_pose_from_sequence():  seqpos: 75 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 75 -1 
+core.pose: make_pose_from_sequence():  seqpos: 76 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 76 -1 
+core.pose: make_pose_from_sequence():  seqpos: 77 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 77 -1 
+core.pose: make_pose_from_sequence():  seqpos: 78 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 78 -1 
+core.pose: make_pose_from_sequence():  seqpos: 79 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 79 -1 
+core.pose: make_pose_from_sequence():  seqpos: 80 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 80 -1 
+core.pose: make_pose_from_sequence():  seqpos: 81 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 81 -1 
+core.pose: make_pose_from_sequence():  seqpos: 82 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 82 -1 
+core.pose: make_pose_from_sequence():  seqpos: 83 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 83 -1 
+core.pose: make_pose_from_sequence():  seqpos: 84 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 84 -1 
+core.pose: make_pose_from_sequence():  seqpos: 85 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 85 -1 
+core.pose: make_pose_from_sequence():  seqpos: 86 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 86 -1 
+core.pose: make_pose_from_sequence():  seqpos: 87 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 87 -1 
+core.pose: make_pose_from_sequence():  seqpos: 88 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 88 -1 
+core.pose: make_pose_from_sequence():  seqpos: 89 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 89 -1 
+core.pose: make_pose_from_sequence():  seqpos: 90 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 90 -1 
+core.pose: make_pose_from_sequence():  seqpos: 91 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 91 -1 
+core.pose: make_pose_from_sequence():  seqpos: 92 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 92 -1 
+core.pose: make_pose_from_sequence():  seqpos: 93 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 93 -1 
+core.pose: make_pose_from_sequence():  seqpos: 94 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 94 -1 
+core.pose: make_pose_from_sequence():  seqpos: 95 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 95 -1 
+core.pose: make_pose_from_sequence():  seqpos: 96 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 96 -1 
+core.pose: make_pose_from_sequence():  seqpos: 97 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 97 -1 
+core.pose: make_pose_from_sequence():  seqpos: 98 MET
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 98 -1 
+core.pose: make_pose_from_sequence():  seqpos: 99 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 99 -1 
+core.pose: make_pose_from_sequence():  seqpos: 100 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 100 -1 
+core.pose: make_pose_from_sequence():  seqpos: 101 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 101 -1 
+core.pose: make_pose_from_sequence():  seqpos: 102 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 102 -1 
+core.pose: make_pose_from_sequence():  seqpos: 103 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 103 -1 
+core.pose: make_pose_from_sequence():  seqpos: 104 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 104 -1 
+core.pose: make_pose_from_sequence():  seqpos: 105 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 105 -1 
+core.pose: make_pose_from_sequence():  seqpos: 106 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 106 -1 
+core.pose: make_pose_from_sequence():  seqpos: 107 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 107 -1 
+core.pose: make_pose_from_sequence():  seqpos: 108 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 108 -1 
+core.pose: make_pose_from_sequence():  seqpos: 109 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 109 -1 
+core.pose: make_pose_from_sequence():  seqpos: 110 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 110 -1 
+core.pose: make_pose_from_sequence():  seqpos: 111 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 111 -1 
+core.pose: make_pose_from_sequence():  seqpos: 112 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 112 -1 
+core.pose: make_pose_from_sequence():  seqpos: 113 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 113 -1 
+core.pose: make_pose_from_sequence():  seqpos: 114 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 114 -1 
+core.pose: make_pose_from_sequence():  seqpos: 115 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 115 -1 
+core.pose: make_pose_from_sequence():  seqpos: 116 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 116 -1 
+core.pose: make_pose_from_sequence():  seqpos: 117 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 117 -1 
+core.pose: make_pose_from_sequence():  seqpos: 118 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 118 -1 
+core.pose: make_pose_from_sequence():  seqpos: 119 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 119 -1 
+core.pose: make_pose_from_sequence():  seqpos: 120 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 120 -1 
+core.pose: make_pose_from_sequence():  seqpos: 121 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 121 -1 
+core.pose: make_pose_from_sequence():  seqpos: 122 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 122 -1 
+core.pose: make_pose_from_sequence():  seqpos: 123 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 123 -1 
+core.pose: make_pose_from_sequence():  seqpos: 124 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 124 -1 
+core.pose: make_pose_from_sequence():  seqpos: 125 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 125 -1 
+core.pose: make_pose_from_sequence():  seqpos: 126 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 126 -1 
+core.pose: make_pose_from_sequence():  seqpos: 127 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 127 -1 
+core.pose: make_pose_from_sequence():  seqpos: 128 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 128 -1 
+core.pose: make_pose_from_sequence():  seqpos: 129 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 129 -1 
+core.pose: make_pose_from_sequence():  seqpos: 130 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 130 -1 
+core.pose: make_pose_from_sequence():  seqpos: 131 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 131 -1 
+core.pose: make_pose_from_sequence():  seqpos: 132 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 132 -1 
+core.pose: sequence in pose: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.pose: annotated seq: S[SER:NtermProteinFull]DVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG[GLY:CtermProteinFull]
+loops: adding loop LOOP start: 1  stop: 132  cut: 0  size: 132  skip rate: 0  extended?: False
+loops: 
+protocols.loops.util: extend structure for LOOP  begin  end  cut  skip_rate  extended
+protocols.loops.util: LOOP start: 1  stop: 132  cut: 0  size: 132  skip rate: 0  extended?: False
+protocols.loops.util: 
+protocols.loops.util: 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 1 BB 1
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 1 BB 1
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 2 BB 2
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 2 BB 3
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 132 BB 2
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 132 BB 3
+protocols.jd2.JobDistributor: new input detected, is: S, last was: 
+protocols.jd2.JobDistributor: reinitializing the mover
+protocols.topo_broker: instantiate CLAIMER: FoldandDockClaimer
+protocols.topo_broker: Reading FragmentFiles from cmd.
+protocols.topo_broker:  Adding claimers for fragments with label 'DEFAULT'.
+core.fragment: generate insert map from Movemap:
+***************************************************************************************************************************************
+core.fragment: generate insert map from Movemap:
+***************************************************************************************************************************************
+core.fragment: generate insert map from Movemap:
+***************************************************************************************************************************************
+protocols.simple_moves.FragmentMover:  got new fragments with size 135
+protocols.simple_moves.FragmentMover:  got new fragments with size 135
+protocols.simple_moves.FragmentMover:  got new fragments with size 135
+core.fragment: generate insert map from Movemap:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+core.fragment: compute strand/loop fractions for 135 residues... 
+protocols.topo_broker: All sequence claims: 
+
+protocols.topo_broker: Read command-line to instantiate a default SequenceClaimer. Read sequence is 'SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG' from command-line (-in:file:fasta or similar) specified file CueR_fasta
+protocols.abinitio: creating standard scoring functions
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+protocols.abinitio: creating standard scoring functions
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: cen_std
+core.scoring.vdwaals.VDW_Energy: calculating hydrogen_interaction_cutoff
+core.scoring.vdwaals.VDW_Energy: Did not find any hydrogen atoms in atom type set centroid
+protocols.relax.FastRelax: ================== Using default script ==================
+protocols.relax.FastRelax: repeat 5
+protocols.relax.FastRelax: ramp_repack_min 0.02  0.01     1.0
+protocols.relax.FastRelax: ramp_repack_min 0.250 0.01     0.5
+protocols.relax.FastRelax: ramp_repack_min 0.550 0.01     0.0
+protocols.relax.FastRelax: ramp_repack_min 1     0.00001  0.0
+protocols.relax.FastRelax: accept_to_best
+protocols.relax.FastRelax: endrepeat 
+protocols.jd2.JobDistributor: run mover... 
+protocols.general_abinitio: AbrelaxMover: S_0001
+protocols.general_abinitio: TIME_STAMP: Sun Oct  2 18:43:34 2016 AbrelaxMover: start...NO_BATCH S_0001
+protocols.topo_broker: Initialize Sequence
+protocols.topo_broker: SequenceClaimer DEFAULT making pose from sequence 'SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG' to get annotated sequence.
+core.pose: one_letter: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.pose: seq_in: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.chemical.ResidueType: Residue dstor
+core.pose: residue_types_from_sequence():  seqpos: 1 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 2 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 3 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 4 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 5 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 6 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 7 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 8 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 9 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 10 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 11 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 12 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 13 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 14 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 15 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 16 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 17 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 18 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 19 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 20 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 21 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 22 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 23 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 24 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 25 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 26 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 27 aa M MET
+core.pose: residue_types_from_sequence():  seqpos: 28 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 29 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 30 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 31 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 32 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 33 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 34 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 35 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 36 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 37 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 38 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 39 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 40 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 41 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 42 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 43 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 44 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 45 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 46 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 47 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 48 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 49 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 50 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 51 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 52 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 53 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 54 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 55 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 56 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 57 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 58 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 59 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 60 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 61 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 62 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 63 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 64 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 65 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 66 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 67 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 68 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 69 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 70 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 71 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 72 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 73 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 74 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 75 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 76 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 77 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 78 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 79 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 80 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 81 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 82 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 83 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 84 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 85 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 86 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 87 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 88 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 89 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 90 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 91 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 92 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 93 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 94 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 95 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 96 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 97 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 98 aa M MET
+core.pose: residue_types_from_sequence():  seqpos: 99 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 100 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 101 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 102 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 103 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 104 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 105 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 106 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 107 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 108 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 109 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 110 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 111 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 112 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 113 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 114 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 115 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 116 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 117 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 118 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 119 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 120 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 121 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 122 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 123 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 124 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 125 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 126 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 127 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 128 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 129 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 130 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 131 aa A ALA
+core.chemical.ResidueType: Residue dstor
+core.pose: residue_types_from_sequence():  seqpos: 132 aa G GLY
+core.pose: make_pose_from_sequence():  seqpos: 1 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.pose: make_pose_from_sequence():  seqpos: 2 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 2 -1 
+core.pose: make_pose_from_sequence():  seqpos: 3 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 3 -1 
+core.pose: make_pose_from_sequence():  seqpos: 4 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 4 -1 
+core.pose: make_pose_from_sequence():  seqpos: 5 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 5 -1 
+core.pose: make_pose_from_sequence():  seqpos: 6 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 6 -1 
+core.pose: make_pose_from_sequence():  seqpos: 7 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 7 -1 
+core.pose: make_pose_from_sequence():  seqpos: 8 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 8 -1 
+core.pose: make_pose_from_sequence():  seqpos: 9 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 9 -1 
+core.pose: make_pose_from_sequence():  seqpos: 10 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 10 -1 
+core.pose: make_pose_from_sequence():  seqpos: 11 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 11 -1 
+core.pose: make_pose_from_sequence():  seqpos: 12 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 12 -1 
+core.pose: make_pose_from_sequence():  seqpos: 13 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 13 -1 
+core.pose: make_pose_from_sequence():  seqpos: 14 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 14 -1 
+core.pose: make_pose_from_sequence():  seqpos: 15 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 15 -1 
+core.pose: make_pose_from_sequence():  seqpos: 16 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 16 -1 
+core.pose: make_pose_from_sequence():  seqpos: 17 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 17 -1 
+core.pose: make_pose_from_sequence():  seqpos: 18 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 18 -1 
+core.pose: make_pose_from_sequence():  seqpos: 19 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 19 -1 
+core.pose: make_pose_from_sequence():  seqpos: 20 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 20 -1 
+core.pose: make_pose_from_sequence():  seqpos: 21 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 21 -1 
+core.pose: make_pose_from_sequence():  seqpos: 22 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 22 -1 
+core.pose: make_pose_from_sequence():  seqpos: 23 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 23 -1 
+core.pose: make_pose_from_sequence():  seqpos: 24 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 24 -1 
+core.pose: make_pose_from_sequence():  seqpos: 25 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 25 -1 
+core.pose: make_pose_from_sequence():  seqpos: 26 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 26 -1 
+core.pose: make_pose_from_sequence():  seqpos: 27 MET
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 27 -1 
+core.pose: make_pose_from_sequence():  seqpos: 28 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 28 -1 
+core.pose: make_pose_from_sequence():  seqpos: 29 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 29 -1 
+core.pose: make_pose_from_sequence():  seqpos: 30 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 30 -1 
+core.pose: make_pose_from_sequence():  seqpos: 31 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 31 -1 
+core.pose: make_pose_from_sequence():  seqpos: 32 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 32 -1 
+core.pose: make_pose_from_sequence():  seqpos: 33 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 33 -1 
+core.pose: make_pose_from_sequence():  seqpos: 34 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 34 -1 
+core.pose: make_pose_from_sequence():  seqpos: 35 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 35 -1 
+core.pose: make_pose_from_sequence():  seqpos: 36 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 36 -1 
+core.pose: make_pose_from_sequence():  seqpos: 37 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 37 -1 
+core.pose: make_pose_from_sequence():  seqpos: 38 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 38 -1 
+core.pose: make_pose_from_sequence():  seqpos: 39 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 39 -1 
+core.pose: make_pose_from_sequence():  seqpos: 40 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 40 -1 
+core.pose: make_pose_from_sequence():  seqpos: 41 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 41 -1 
+core.pose: make_pose_from_sequence():  seqpos: 42 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 42 -1 
+core.pose: make_pose_from_sequence():  seqpos: 43 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 43 -1 
+core.pose: make_pose_from_sequence():  seqpos: 44 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 44 -1 
+core.pose: make_pose_from_sequence():  seqpos: 45 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 45 -1 
+core.pose: make_pose_from_sequence():  seqpos: 46 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 46 -1 
+core.pose: make_pose_from_sequence():  seqpos: 47 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 47 -1 
+core.pose: make_pose_from_sequence():  seqpos: 48 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 48 -1 
+core.pose: make_pose_from_sequence():  seqpos: 49 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 49 -1 
+core.pose: make_pose_from_sequence():  seqpos: 50 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 50 -1 
+core.pose: make_pose_from_sequence():  seqpos: 51 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 51 -1 
+core.pose: make_pose_from_sequence():  seqpos: 52 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 52 -1 
+core.pose: make_pose_from_sequence():  seqpos: 53 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 53 -1 
+core.pose: make_pose_from_sequence():  seqpos: 54 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 54 -1 
+core.pose: make_pose_from_sequence():  seqpos: 55 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 55 -1 
+core.pose: make_pose_from_sequence():  seqpos: 56 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 56 -1 
+core.pose: make_pose_from_sequence():  seqpos: 57 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 57 -1 
+core.pose: make_pose_from_sequence():  seqpos: 58 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 58 -1 
+core.pose: make_pose_from_sequence():  seqpos: 59 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 59 -1 
+core.pose: make_pose_from_sequence():  seqpos: 60 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 60 -1 
+core.pose: make_pose_from_sequence():  seqpos: 61 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 61 -1 
+core.pose: make_pose_from_sequence():  seqpos: 62 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 62 -1 
+core.pose: make_pose_from_sequence():  seqpos: 63 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 63 -1 
+core.pose: make_pose_from_sequence():  seqpos: 64 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 64 -1 
+core.pose: make_pose_from_sequence():  seqpos: 65 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 65 -1 
+core.pose: make_pose_from_sequence():  seqpos: 66 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 66 -1 
+core.pose: make_pose_from_sequence():  seqpos: 67 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 67 -1 
+core.pose: make_pose_from_sequence():  seqpos: 68 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 68 -1 
+core.pose: make_pose_from_sequence():  seqpos: 69 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 69 -1 
+core.pose: make_pose_from_sequence():  seqpos: 70 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 70 -1 
+core.pose: make_pose_from_sequence():  seqpos: 71 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 71 -1 
+core.pose: make_pose_from_sequence():  seqpos: 72 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 72 -1 
+core.pose: make_pose_from_sequence():  seqpos: 73 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 73 -1 
+core.pose: make_pose_from_sequence():  seqpos: 74 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 74 -1 
+core.pose: make_pose_from_sequence():  seqpos: 75 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 75 -1 
+core.pose: make_pose_from_sequence():  seqpos: 76 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 76 -1 
+core.pose: make_pose_from_sequence():  seqpos: 77 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 77 -1 
+core.pose: make_pose_from_sequence():  seqpos: 78 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 78 -1 
+core.pose: make_pose_from_sequence():  seqpos: 79 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 79 -1 
+core.pose: make_pose_from_sequence():  seqpos: 80 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 80 -1 
+core.pose: make_pose_from_sequence():  seqpos: 81 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 81 -1 
+core.pose: make_pose_from_sequence():  seqpos: 82 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 82 -1 
+core.pose: make_pose_from_sequence():  seqpos: 83 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 83 -1 
+core.pose: make_pose_from_sequence():  seqpos: 84 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 84 -1 
+core.pose: make_pose_from_sequence():  seqpos: 85 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 85 -1 
+core.pose: make_pose_from_sequence():  seqpos: 86 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 86 -1 
+core.pose: make_pose_from_sequence():  seqpos: 87 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 87 -1 
+core.pose: make_pose_from_sequence():  seqpos: 88 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 88 -1 
+core.pose: make_pose_from_sequence():  seqpos: 89 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 89 -1 
+core.pose: make_pose_from_sequence():  seqpos: 90 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 90 -1 
+core.pose: make_pose_from_sequence():  seqpos: 91 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 91 -1 
+core.pose: make_pose_from_sequence():  seqpos: 92 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 92 -1 
+core.pose: make_pose_from_sequence():  seqpos: 93 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 93 -1 
+core.pose: make_pose_from_sequence():  seqpos: 94 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 94 -1 
+core.pose: make_pose_from_sequence():  seqpos: 95 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 95 -1 
+core.pose: make_pose_from_sequence():  seqpos: 96 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 96 -1 
+core.pose: make_pose_from_sequence():  seqpos: 97 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 97 -1 
+core.pose: make_pose_from_sequence():  seqpos: 98 MET
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 98 -1 
+core.pose: make_pose_from_sequence():  seqpos: 99 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 99 -1 
+core.pose: make_pose_from_sequence():  seqpos: 100 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 100 -1 
+core.pose: make_pose_from_sequence():  seqpos: 101 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 101 -1 
+core.pose: make_pose_from_sequence():  seqpos: 102 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 102 -1 
+core.pose: make_pose_from_sequence():  seqpos: 103 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 103 -1 
+core.pose: make_pose_from_sequence():  seqpos: 104 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 104 -1 
+core.pose: make_pose_from_sequence():  seqpos: 105 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 105 -1 
+core.pose: make_pose_from_sequence():  seqpos: 106 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 106 -1 
+core.pose: make_pose_from_sequence():  seqpos: 107 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 107 -1 
+core.pose: make_pose_from_sequence():  seqpos: 108 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 108 -1 
+core.pose: make_pose_from_sequence():  seqpos: 109 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 109 -1 
+core.pose: make_pose_from_sequence():  seqpos: 110 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 110 -1 
+core.pose: make_pose_from_sequence():  seqpos: 111 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 111 -1 
+core.pose: make_pose_from_sequence():  seqpos: 112 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 112 -1 
+core.pose: make_pose_from_sequence():  seqpos: 113 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 113 -1 
+core.pose: make_pose_from_sequence():  seqpos: 114 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 114 -1 
+core.pose: make_pose_from_sequence():  seqpos: 115 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 115 -1 
+core.pose: make_pose_from_sequence():  seqpos: 116 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 116 -1 
+core.pose: make_pose_from_sequence():  seqpos: 117 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 117 -1 
+core.pose: make_pose_from_sequence():  seqpos: 118 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 118 -1 
+core.pose: make_pose_from_sequence():  seqpos: 119 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 119 -1 
+core.pose: make_pose_from_sequence():  seqpos: 120 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 120 -1 
+core.pose: make_pose_from_sequence():  seqpos: 121 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 121 -1 
+core.pose: make_pose_from_sequence():  seqpos: 122 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 122 -1 
+core.pose: make_pose_from_sequence():  seqpos: 123 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 123 -1 
+core.pose: make_pose_from_sequence():  seqpos: 124 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 124 -1 
+core.pose: make_pose_from_sequence():  seqpos: 125 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 125 -1 
+core.pose: make_pose_from_sequence():  seqpos: 126 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 126 -1 
+core.pose: make_pose_from_sequence():  seqpos: 127 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 127 -1 
+core.pose: make_pose_from_sequence():  seqpos: 128 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 128 -1 
+core.pose: make_pose_from_sequence():  seqpos: 129 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 129 -1 
+core.pose: make_pose_from_sequence():  seqpos: 130 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 130 -1 
+core.pose: make_pose_from_sequence():  seqpos: 131 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 131 -1 
+core.pose: make_pose_from_sequence():  seqpos: 132 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 132 -1 
+core.pose: sequence in pose: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.pose: annotated seq: S[SER:NtermProteinFull]DVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG[GLY:CtermProteinFull]
+protocols.topo_broker: All sequence claims: 
+SequenceClaim (DEFAULT, length=132, priority=0) owned by, SequenceClaimer;
+
+protocols.topo_broker: broking claims...
+protocols.topo_broker: accepted: SequenceClaim (DEFAULT, length=132, priority=0) owned by, SequenceClaimer;
+protocols.topo_broker: Initializing sequence claims...Accumulating sequence 'S[SER:NtermProteinFull]DVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG[GLY:CtermProteinFull]' from claim labeled 'DEFAULT'
+core.pose: one_letter: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.pose: seq_in: S[SER:NtermProteinFull]DVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG[GLY:CtermProteinFull]
+core.pose: residue_types_from_sequence():  seqpos: 1 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 2 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 3 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 4 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 5 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 6 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 7 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 8 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 9 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 10 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 11 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 12 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 13 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 14 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 15 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 16 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 17 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 18 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 19 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 20 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 21 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 22 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 23 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 24 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 25 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 26 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 27 aa M MET
+core.pose: residue_types_from_sequence():  seqpos: 28 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 29 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 30 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 31 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 32 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 33 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 34 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 35 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 36 aa Y TYR
+core.pose: residue_types_from_sequence():  seqpos: 37 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 38 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 39 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 40 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 41 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 42 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 43 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 44 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 45 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 46 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 47 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 48 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 49 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 50 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 51 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 52 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 53 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 54 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 55 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 56 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 57 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 58 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 59 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 60 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 61 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 62 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 63 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 64 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 65 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 66 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 67 aa F PHE
+core.pose: residue_types_from_sequence():  seqpos: 68 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 69 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 70 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 71 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 72 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 73 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 74 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 75 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 76 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 77 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 78 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 79 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 80 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 81 aa T THR
+core.pose: residue_types_from_sequence():  seqpos: 82 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 83 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 84 aa K LYS
+core.pose: residue_types_from_sequence():  seqpos: 85 aa V VAL
+core.pose: residue_types_from_sequence():  seqpos: 86 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 87 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 88 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 89 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 90 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 91 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 92 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 93 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 94 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 95 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 96 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 97 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 98 aa M MET
+core.pose: residue_types_from_sequence():  seqpos: 99 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 100 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 101 aa Q GLN
+core.pose: residue_types_from_sequence():  seqpos: 102 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 103 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 104 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 105 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 106 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 107 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 108 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 109 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 110 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 111 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 112 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 113 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 114 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 115 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 116 aa D ASP
+core.pose: residue_types_from_sequence():  seqpos: 117 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 118 aa P PRO
+core.pose: residue_types_from_sequence():  seqpos: 119 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 120 aa I ILE
+core.pose: residue_types_from_sequence():  seqpos: 121 aa E GLU
+core.pose: residue_types_from_sequence():  seqpos: 122 aa N ASN
+core.pose: residue_types_from_sequence():  seqpos: 123 aa L LEU
+core.pose: residue_types_from_sequence():  seqpos: 124 aa S SER
+core.pose: residue_types_from_sequence():  seqpos: 125 aa G GLY
+core.pose: residue_types_from_sequence():  seqpos: 126 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 127 aa C CYS
+core.pose: residue_types_from_sequence():  seqpos: 128 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 129 aa H HIS
+core.pose: residue_types_from_sequence():  seqpos: 130 aa R ARG
+core.pose: residue_types_from_sequence():  seqpos: 131 aa A ALA
+core.pose: residue_types_from_sequence():  seqpos: 132 aa G GLY
+core.pose: make_pose_from_sequence():  seqpos: 1 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 1 -1 
+core.pose: make_pose_from_sequence():  seqpos: 2 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 2 -1 
+core.pose: make_pose_from_sequence():  seqpos: 3 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 3 -1 
+core.pose: make_pose_from_sequence():  seqpos: 4 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 4 -1 
+core.pose: make_pose_from_sequence():  seqpos: 5 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 5 -1 
+core.pose: make_pose_from_sequence():  seqpos: 6 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 6 -1 
+core.pose: make_pose_from_sequence():  seqpos: 7 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 7 -1 
+core.pose: make_pose_from_sequence():  seqpos: 8 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 8 -1 
+core.pose: make_pose_from_sequence():  seqpos: 9 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 9 -1 
+core.pose: make_pose_from_sequence():  seqpos: 10 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 10 -1 
+core.pose: make_pose_from_sequence():  seqpos: 11 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 11 -1 
+core.pose: make_pose_from_sequence():  seqpos: 12 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 12 -1 
+core.pose: make_pose_from_sequence():  seqpos: 13 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 13 -1 
+core.pose: make_pose_from_sequence():  seqpos: 14 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 14 -1 
+core.pose: make_pose_from_sequence():  seqpos: 15 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 15 -1 
+core.pose: make_pose_from_sequence():  seqpos: 16 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 16 -1 
+core.pose: make_pose_from_sequence():  seqpos: 17 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 17 -1 
+core.pose: make_pose_from_sequence():  seqpos: 18 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 18 -1 
+core.pose: make_pose_from_sequence():  seqpos: 19 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 19 -1 
+core.pose: make_pose_from_sequence():  seqpos: 20 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 20 -1 
+core.pose: make_pose_from_sequence():  seqpos: 21 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 21 -1 
+core.pose: make_pose_from_sequence():  seqpos: 22 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 22 -1 
+core.pose: make_pose_from_sequence():  seqpos: 23 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 23 -1 
+core.pose: make_pose_from_sequence():  seqpos: 24 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 24 -1 
+core.pose: make_pose_from_sequence():  seqpos: 25 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 25 -1 
+core.pose: make_pose_from_sequence():  seqpos: 26 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 26 -1 
+core.pose: make_pose_from_sequence():  seqpos: 27 MET
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 27 -1 
+core.pose: make_pose_from_sequence():  seqpos: 28 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 28 -1 
+core.pose: make_pose_from_sequence():  seqpos: 29 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 29 -1 
+core.pose: make_pose_from_sequence():  seqpos: 30 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 30 -1 
+core.pose: make_pose_from_sequence():  seqpos: 31 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 31 -1 
+core.pose: make_pose_from_sequence():  seqpos: 32 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 32 -1 
+core.pose: make_pose_from_sequence():  seqpos: 33 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 33 -1 
+core.pose: make_pose_from_sequence():  seqpos: 34 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 34 -1 
+core.pose: make_pose_from_sequence():  seqpos: 35 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 35 -1 
+core.pose: make_pose_from_sequence():  seqpos: 36 TYR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 36 -1 
+core.pose: make_pose_from_sequence():  seqpos: 37 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 37 -1 
+core.pose: make_pose_from_sequence():  seqpos: 38 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 38 -1 
+core.pose: make_pose_from_sequence():  seqpos: 39 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 39 -1 
+core.pose: make_pose_from_sequence():  seqpos: 40 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 40 -1 
+core.pose: make_pose_from_sequence():  seqpos: 41 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 41 -1 
+core.pose: make_pose_from_sequence():  seqpos: 42 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 42 -1 
+core.pose: make_pose_from_sequence():  seqpos: 43 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 43 -1 
+core.pose: make_pose_from_sequence():  seqpos: 44 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 44 -1 
+core.pose: make_pose_from_sequence():  seqpos: 45 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 45 -1 
+core.pose: make_pose_from_sequence():  seqpos: 46 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 46 -1 
+core.pose: make_pose_from_sequence():  seqpos: 47 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 47 -1 
+core.pose: make_pose_from_sequence():  seqpos: 48 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 48 -1 
+core.pose: make_pose_from_sequence():  seqpos: 49 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 49 -1 
+core.pose: make_pose_from_sequence():  seqpos: 50 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 50 -1 
+core.pose: make_pose_from_sequence():  seqpos: 51 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 51 -1 
+core.pose: make_pose_from_sequence():  seqpos: 52 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 52 -1 
+core.pose: make_pose_from_sequence():  seqpos: 53 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 53 -1 
+core.pose: make_pose_from_sequence():  seqpos: 54 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 54 -1 
+core.pose: make_pose_from_sequence():  seqpos: 55 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 55 -1 
+core.pose: make_pose_from_sequence():  seqpos: 56 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 56 -1 
+core.pose: make_pose_from_sequence():  seqpos: 57 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 57 -1 
+core.pose: make_pose_from_sequence():  seqpos: 58 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 58 -1 
+core.pose: make_pose_from_sequence():  seqpos: 59 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 59 -1 
+core.pose: make_pose_from_sequence():  seqpos: 60 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 60 -1 
+core.pose: make_pose_from_sequence():  seqpos: 61 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 61 -1 
+core.pose: make_pose_from_sequence():  seqpos: 62 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 62 -1 
+core.pose: make_pose_from_sequence():  seqpos: 63 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 63 -1 
+core.pose: make_pose_from_sequence():  seqpos: 64 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 64 -1 
+core.pose: make_pose_from_sequence():  seqpos: 65 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 65 -1 
+core.pose: make_pose_from_sequence():  seqpos: 66 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 66 -1 
+core.pose: make_pose_from_sequence():  seqpos: 67 PHE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 67 -1 
+core.pose: make_pose_from_sequence():  seqpos: 68 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 68 -1 
+core.pose: make_pose_from_sequence():  seqpos: 69 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 69 -1 
+core.pose: make_pose_from_sequence():  seqpos: 70 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 70 -1 
+core.pose: make_pose_from_sequence():  seqpos: 71 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 71 -1 
+core.pose: make_pose_from_sequence():  seqpos: 72 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 72 -1 
+core.pose: make_pose_from_sequence():  seqpos: 73 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 73 -1 
+core.pose: make_pose_from_sequence():  seqpos: 74 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 74 -1 
+core.pose: make_pose_from_sequence():  seqpos: 75 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 75 -1 
+core.pose: make_pose_from_sequence():  seqpos: 76 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 76 -1 
+core.pose: make_pose_from_sequence():  seqpos: 77 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 77 -1 
+core.pose: make_pose_from_sequence():  seqpos: 78 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 78 -1 
+core.pose: make_pose_from_sequence():  seqpos: 79 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 79 -1 
+core.pose: make_pose_from_sequence():  seqpos: 80 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 80 -1 
+core.pose: make_pose_from_sequence():  seqpos: 81 THR
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 81 -1 
+core.pose: make_pose_from_sequence():  seqpos: 82 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 82 -1 
+core.pose: make_pose_from_sequence():  seqpos: 83 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 83 -1 
+core.pose: make_pose_from_sequence():  seqpos: 84 LYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 84 -1 
+core.pose: make_pose_from_sequence():  seqpos: 85 VAL
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 85 -1 
+core.pose: make_pose_from_sequence():  seqpos: 86 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 86 -1 
+core.pose: make_pose_from_sequence():  seqpos: 87 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 87 -1 
+core.pose: make_pose_from_sequence():  seqpos: 88 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 88 -1 
+core.pose: make_pose_from_sequence():  seqpos: 89 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 89 -1 
+core.pose: make_pose_from_sequence():  seqpos: 90 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 90 -1 
+core.pose: make_pose_from_sequence():  seqpos: 91 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 91 -1 
+core.pose: make_pose_from_sequence():  seqpos: 92 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 92 -1 
+core.pose: make_pose_from_sequence():  seqpos: 93 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 93 -1 
+core.pose: make_pose_from_sequence():  seqpos: 94 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 94 -1 
+core.pose: make_pose_from_sequence():  seqpos: 95 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 95 -1 
+core.pose: make_pose_from_sequence():  seqpos: 96 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 96 -1 
+core.pose: make_pose_from_sequence():  seqpos: 97 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 97 -1 
+core.pose: make_pose_from_sequence():  seqpos: 98 MET
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 98 -1 
+core.pose: make_pose_from_sequence():  seqpos: 99 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 99 -1 
+core.pose: make_pose_from_sequence():  seqpos: 100 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 100 -1 
+core.pose: make_pose_from_sequence():  seqpos: 101 GLN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 101 -1 
+core.pose: make_pose_from_sequence():  seqpos: 102 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 102 -1 
+core.pose: make_pose_from_sequence():  seqpos: 103 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 103 -1 
+core.pose: make_pose_from_sequence():  seqpos: 104 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 104 -1 
+core.pose: make_pose_from_sequence():  seqpos: 105 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 105 -1 
+core.pose: make_pose_from_sequence():  seqpos: 106 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 106 -1 
+core.pose: make_pose_from_sequence():  seqpos: 107 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 107 -1 
+core.pose: make_pose_from_sequence():  seqpos: 108 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 108 -1 
+core.pose: make_pose_from_sequence():  seqpos: 109 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 109 -1 
+core.pose: make_pose_from_sequence():  seqpos: 110 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 110 -1 
+core.pose: make_pose_from_sequence():  seqpos: 111 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 111 -1 
+core.pose: make_pose_from_sequence():  seqpos: 112 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 112 -1 
+core.pose: make_pose_from_sequence():  seqpos: 113 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 113 -1 
+core.pose: make_pose_from_sequence():  seqpos: 114 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 114 -1 
+core.pose: make_pose_from_sequence():  seqpos: 115 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 115 -1 
+core.pose: make_pose_from_sequence():  seqpos: 116 ASP
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 116 -1 
+core.pose: make_pose_from_sequence():  seqpos: 117 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 117 -1 
+core.pose: make_pose_from_sequence():  seqpos: 118 PRO
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 118 -1 
+core.pose: make_pose_from_sequence():  seqpos: 119 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 119 -1 
+core.pose: make_pose_from_sequence():  seqpos: 120 ILE
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 120 -1 
+core.pose: make_pose_from_sequence():  seqpos: 121 GLU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 121 -1 
+core.pose: make_pose_from_sequence():  seqpos: 122 ASN
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 122 -1 
+core.pose: make_pose_from_sequence():  seqpos: 123 LEU
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 123 -1 
+core.pose: make_pose_from_sequence():  seqpos: 124 SER
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 124 -1 
+core.pose: make_pose_from_sequence():  seqpos: 125 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 125 -1 
+core.pose: make_pose_from_sequence():  seqpos: 126 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 126 -1 
+core.pose: make_pose_from_sequence():  seqpos: 127 CYS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 127 -1 
+core.pose: make_pose_from_sequence():  seqpos: 128 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 128 -1 
+core.pose: make_pose_from_sequence():  seqpos: 129 HIS
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 129 -1 
+core.pose: make_pose_from_sequence():  seqpos: 130 ARG
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 130 -1 
+core.pose: make_pose_from_sequence():  seqpos: 131 ALA
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 131 -1 
+core.pose: make_pose_from_sequence():  seqpos: 132 GLY
+core.conformation.Conformation: CURRENT_FOLD_TREE  EDGE 1 132 -1 
+core.pose: sequence in pose: SDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG
+core.pose: annotated seq: S[SER:NtermProteinFull]DVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG[GLY:CtermProteinFull]
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 1 BB 1
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 132 BB 2
+core.conformation.Conformation: Unable to find torsion angle in atom_tree: TorsionID 132 BB 3
+protocols.topo_broker: Sequence initialized. Final sequence: S[SER:NtermProteinFull]DVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG[GLY:CtermProteinFull]
+protocols.topo_broker: Start Round1-Broking...
+protocols.topo_broker: generate claim for FoldandDockClaimer with label DEFAULT
+protocols.topo_broker: generate claim for FragmentClaimer with label DEFAULT
+protocols.jd2.JobDistributor: 
+
+[ERROR] Exception caught by JobDistributor for job S_0001 Sequence length of SequenceClaim with label DEFAULT(length: 132) and sequence length of corresponding FragmentClaimer (length: 135) do not match.
+
+protocols.jd2.JobDistributor: 
+protocols.jd2.JobDistributor: S_0001 reported that its input was bad and will not retry
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: S_0001
+protocols.jd2.JobDistributor: no more batches to process... 
+protocols.jd2.JobDistributor: 1 jobs considered, 1 jobs attempted in 1 seconds
+protocols.jd2.SilentFileJobOutputter: writing 0 structs.
+protocols.jd2.SilentFileJobOutputter: currently have 0 structs.
+protocols::checkpoint: Deleting checkpoints of FastRelax
+protocols::checkpoint: Deleting checkpoints of FragmentSampler
+protocols::checkpoint: Deleting checkpoints of FastRelax
+protocols::checkpoint: Deleting checkpoints of FragmentSampler
+std::cout: Exception was thrown: 
+1 jobs failed; check output for error messages

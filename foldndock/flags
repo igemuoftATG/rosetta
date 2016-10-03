@@ -1,0 +1,45 @@
+-run:protocol broker
+-broker:setup setup_init.tpb
+-database /home/rosetta1/rosetta/main/database
+
+
+-symmetry:symmetry_definition cn_nsub2_symm.dat
+-symmetry:initialize_rigid_body_dofs
+-fold_and_dock:rigid_body_cycles 1
+-fold_and_dock:rigid_body_frequency 5
+-fold_and_dock:rotate_anchor_to_x
+-run:reinitialize_mover_for_each_job
+#-score:weights cen_std
+-score:weights score12_full
+#-restore_pre_talaris_2013_behavior
+#-score:weights score13_env_hb
+#-score:find_neighbors_3dgrid
+#-stage2_patch score_membrane_s2.wts_patch
+#-stage3a_patch score_membrane_s3a.wts_patch
+#-stage3b_patch score_membrane_s3b.wts_patch
+#-stage4_patch score_membrane_s4.wts_patch
+-abinitio::recover_low_in_stages 0
+-abinitio:rg_reweight 0.001
+-abinitio:use_filters false
+-packing:ex1
+-packing:ex1:level 1
+-packing:ex2
+-packing:ex2:level 1
+-packing:extrachi_cutoff 0
+-in:file:fasta CueR_fasta 
+-in:file:frag9 ../frag_libs/cuer_frags9.txt
+-in:file:frag3 ../frag_libs/cuer_frags3.txt
+-in:file:centroid_input
+#-out:nstruct 1
+#-out:file:silent_struct_type binary
+-relax:quick
+-relax:jump_move
+-out:path:pdb ./
+-out:pdb
+#-out:file:output_virtualx
+#-out:file:silent CueR.out
+-no_prof_info_in_silentout
+-mute core.io.database
+-out:level 500
+#-out:file:scorefile score.sc
+#-help

@@ -1,0 +1,23 @@
+-run:protocol broker
+-broker:setup setup_init.tpb
+-database /home/rosetta1/rosetta/main/database
+
+-nstruct 1
+-out:file:silent_struct_type binary
+
+-in:file:fasta CueR_fasta
+-file:frag3 CueR-3.txt
+-file:frag9 CueR-9.txt
+
+-rg_reweight 0.001
+-run:reinitialize_mover_for_each_job
+
+-score:weights talaris2013
+
+-symmetry:symmetry_definition cn_sub2.symm
+-symmetry:initialize_rigid_body_dofs
+-fold_and_dock::rotate_anchor_to_x
+
+-relax:fast
+-relax:jump_move
+-help
