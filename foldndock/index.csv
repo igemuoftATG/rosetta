@@ -1,7 +1,7 @@
-filename, score
+filename, score, abinitio_options
 
-S_0002, score13_env_hb
-S_0003, talaris2013
-S_0004, score12_full score13_env_hb talaris2013
-S_0005, talaris2014
-
+S_0002, score13_env_hb, none
+S_0003, talaris2013, none
+S_0004, score12_full score13_env_hb talaris2013, none
+S_0005, talaris2014, none
+S_0006, talaris2014, stage1234

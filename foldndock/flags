@@ -22,10 +22,19 @@
 #-score:weights talaris2013
 -score:weights talaris2014
 
-## ???
--abinitio::recover_low_in_stages 0
--abinitio:rg_reweight 0.001
+## ABINITIO OPTIONZ
+-abinitio:stage1_patch
+-abinitio:stage2_patch
+-abinitio:stage3a_patch
+-abinitio:stage3b_patch
+#-abinitio:recover_low_in_stages 0
+-abinitio:increase_cycles 10
+-abinitio:rg_reweight 0.05
+-abinitio:rsd_wt_helix 0.5
+-abinitio:rsd_wt_loop 0.5
 -abinitio:use_filters false
+
+## ????
 -packing:ex1
 -packing:ex1:level 1
 -packing:ex2
@@ -47,11 +56,11 @@
 ## OUTPUTS
 #-out:nstruct 1
 #-out:file:silent_struct_type binary
--out:path:pdb ./pdb/
+-out:path ./pdb/
 -out:pdb
 #-out:file:output_virtualx
 #-out:file:silent CueR.out
--out:level 500
+#-out:level 500
 #-out:file:scorefile score.sc
 
 ## NEED HELP??
