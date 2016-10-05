@@ -1,0 +1,54 @@
+core.init: Rosetta version exported  from http://www.rosettacommons.org
+core.init: command: minirosetta.linuxgccrelease @ ./flags/flags -run:constant_seed -nodelay
+core.init: Constant seed mode, seed=1111111 seed_offset=0 real_seed=1111111
+core.init.random: RandomGenerator:init: Normal mode, seed=1111111 RG_type=mt19937
+core.io.fragments: reading fragments from file: ../frag_libs/cuer_frags9.txt ... 
+core.io.fragments: rosetta++ fileformat detected! Calling legacy reader... 
+core.fragments.ConstantLengthFragSet: finished reading top 25 9mer fragments from file ../frag_libs/cuer_frags9.txt
+core.io.fragments: reading fragments from file: ../frag_libs/cuer_frags3.txt ... 
+core.io.fragments: rosetta++ fileformat detected! Calling legacy reader... 
+core.fragments.ConstantLengthFragSet: finished reading top 200 3mer fragments from file ../frag_libs/cuer_frags3.txt
+protocols.topo_broker:  Adding claimers for fragments with label 'DEFAULT'.
+core.fragment: compute strand/loop fractions for 135 residues... 
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/env_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cbeta_den.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/pair_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cenpack_log.txt
+basic.io.database: Database file opened: scoring/score_functions/SecondaryStructurePotential/phi.theta.36.HS.resmooth
+basic.io.database: Database file opened: scoring/score_functions/SecondaryStructurePotential/phi.theta.36.SS.resmooth
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2014
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/rama/Rama_smooth_dyn.dat_ss_6.4
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_pp
+protocols.relax.FastRelax: ================== Using default script ==================
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+core.chemical.ResidueTypeSet: Finished initializing centroid residue type set.  Created 1834 residue types
+core.chemical.ResidueTypeSet: Total time to initialize 0.05 seconds.
+protocols.topo_broker:  Adding claimers for fragments with label 'DEFAULT'.
+core.fragment: compute strand/loop fractions for 135 residues... 
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2014
+protocols.relax.FastRelax: ================== Using default script ==================
+protocols.general_abinitio: AbrelaxMover: S_0001
+protocols.general_abinitio: TIME_STAMP: Tue Oct  4 14:01:40 2016 AbrelaxMover: start...NO_BATCH S_0001
+protocols.topo_broker:    Edge   	   Jump     Jump #
+0001--0135
+
+core.conformation.symmetry.SymmData: symmetry name: c2
+core.conformation.symmetry.SymmData: number of subunits: 2
+core.conformation.symmetry.SymmData: number of interfaces: 1
+core.conformation.symmetry.SymmData: score subunit number: VRT0001
+core.conformation.symmetry.SymmData: anchor the subunits at residue: COM
+core.conformation.symmetry.SymmData:  Virtual coordinate system VRT0001
+core.conformation.symmetry.SymmData: x: -1 0 0
+core.conformation.symmetry.SymmData: y: 0 1 0
+core.conformation.symmetry.SymmData: origin: 0 0 0
+core.conformation.s

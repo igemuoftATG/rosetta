@@ -1,2 +1,5 @@
-#!/bin/bash
-minirosetta.linuxgccrelease @ flags  -run:constant_seed -nodelay
+#/bin/bash
+
+minirosetta.linuxgccrelease @ ./flags/$1_flags  -run:constant_seed -nodelay 
+#| tee ./logs/$1.log
+#mv ./pdb/S_0001.pdb ./pdb/$1.pdb

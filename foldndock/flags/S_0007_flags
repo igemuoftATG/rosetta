@@ -1,0 +1,116 @@
+## MUST HAVES (DUH...)
+-run:protocol broker
+-broker:setup setup_init.tpb
+-database /home/rosetta1/rosetta/main/database
+-run:reinitialize_mover_for_each_job
+
+
+## SYMMETRY
+-symmetry:symmetry_definition cn_nsub2_symm.dat
+-symmetry:initialize_rigid_body_dofs
+
+
+## FOLDNDOCK OPTIONZ
+-fold_and_dock:rigid_body_cycles 50 
+-fold_and_dock:rigid_body_frequency 5 
+    #fraction of times rigid body cycles are applied during fragment assembly moves
+-fold_and_dock:rotate_anchor_to_x
+    #rotate anchor residue to x-axis before applying rigid body transformations
+
+
+## SCORING WEIGHTS
+#-score:weights cen_std
+#-score:weights score12_full
+#-restore_pre_talaris_2013_behavior ?WHAT DOES THIS DO?
+#-score:weights score13_env_hb
+#-score:find_neighbors_3dgrid
+#-score:weights talaris2013
+-score:weights talaris2014
+
+
+## ABINITIO OPTIONZ
+-abinitio:stage1_patch
+-abinitio:stage2_patch
+-abinitio:stage3a_patch
+-abinitio:stage3b_patch
+-abinitio:stage4_patch
+-abinitio:recover_low_in_stages 1 2 3 4
+-abinitio:increase_cycles 10
+    #globally scales up number of cycles
+    #new cycle numbers will be:
+        #Stage I and II: 2000*10
+        #Stage III: 10-cycle blocks of 2000*10 cycles
+        #Stage IV: 4000*10 cycles
+#-abinitio:skip_stages [1,2,3,4]
+    #specifies a list of stages that are skipped during fragment assembly
+    #allows us to recover the lowest scoring pose after each cycle block for each stage
+    #can specify which stage to recover from with -abinitio:recover_low_instages
+-abinitio:rg_reweight 0.05 
+    #default for rg_reweight is 0.001 for coiled-coil: should be adjusted for other proteins.
+    #rg_reweight reweights contribution of radius of gyration to total score.
+-abinitio:rsd_wt_helix 0.5
+    #reweight centroid scorefunction terms  env(solvation term for residue environment), pair (electrostatics), cb (solvation term) for helix residues by this factor
+-abinitio:rsd_wt_loop 0.5
+    #reweight env, pair, cb for loop residues by this factor
+-abinitio:use_filters true
+    #when true, use radius of gyration, contact-order, and sheet-filters
+    #will not continue with refinement if filter fails
+
+## SYMMETRIC ROTAMER PACKING 
+-packing:ex1 
+    #use extra chi1 sub-rotamers (expanded rotamer library for full-atom packing) for all residues that pass the extrachi cutoff
+-packing:ex1:level 1
+    #specify pattern for dihedral angle sampling
+    #1 is the default (+/- 1 standard deviation; 3 samples) 
+-packing:ex2
+-packing:ex2:level 1
+-packing:extrachi_cutoff 18
+    #number of neighbours a residue must have before extra rotamers are used 
+    #default is 18
+-no_prof_info_in_silentout
+    #gets rid of time-columns in score/silent -files
+    #default is false
+-mute core.io.database
+    #guessing: mute specified tracer channel core.io.database
+    #all messages with this priority level or less will be ignored
+
+
+## ????
+#-evaluation:rmsd_target ./pdb/1q07.clean.pdb
+#-evaluation:symmetric_rmsd
+#-evaluation:rmsd_column
+
+##RELAX
+-relax:quick
+    #takes either centroid or fullatom, returns full-atom relaxed structures
+    #repacks and minimizes sidechains at different forcefield repulsive weights
+    #usually last step in protocol
+    #outputs silent or pdb structure(s)
+-relax:jump_move
+    #set all jumps movable during minimization
+    #default is false
+
+
+## INPUTS
+-in:file:fasta CueR_fasta 
+-in:file:frag9 ../frag_libs/cuer_frags9.txt
+-in:file:frag3 ../frag_libs/cuer_frags3.txt
+-in:file:centroid_input
+
+
+## OUTPUTS
+-out:nstruct 10
+    #number of output structures
+#-out:file:silent_struct_type binary
+-out:path:pdb ./pdb/
+    #PDB output files will be written to ./pdb/
+-out:pdb
+#-out:file:output_virtualx
+#-out:file:silent CueR.out
+#-out:level 500
+    #set priority of output messages to be between 0 and 500 
+#-out:file:scorefile score.sc
+    #write a scorefile to score.sc
+
+## NEED HELP?? 
+#-help

@@ -27,6 +27,7 @@
 -abinitio:stage2_patch
 -abinitio:stage3a_patch
 -abinitio:stage3b_patch
+-abinitio:stage4_patch
 #-abinitio:recover_low_in_stages 0
 -abinitio:increase_cycles 10
 -abinitio:rg_reweight 0.05
@@ -65,3 +66,4 @@
 
 ## NEED HELP??
 #-help
+
