@@ -1,0 +1,8 @@
+The parent protein 2DG6 was found using the Ginzu method from the robetta server.
+http://www.rcsb.org/pdb/explore/explore.do?pdbId=2DG6
+
+Ginzu is a PDB template identification and domain prediction protocol that attempts to determine the regions of a protein chain that are aligned to PDB templates with reasonable confidence, and in regions where templates are not detected, it attempts to find regions that will fold into globular units, called "domains".
+
+The PDBs were also produced by the structure prediction in the robetta server.
+
+The best structure is S_0001.pdb

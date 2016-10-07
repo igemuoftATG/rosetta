@@ -1,0 +1,373 @@
+<!--
+  Copyright (c) 2003 Baker Lab.  All rights reserved.
+ 
+  Robetta results page
+  Written by David E. Kim
+-->
+
+
+
+
+
+ 
+<HTML>
+<HEAD>
+        <TITLE>Robetta Structure Prediction Server Job 69292 Results - cuer-monomer</TITLE>
+        <META name="description" content="Robetta Server.">
+        <META name="keywords" content="rosetta baker ab initio comparative modeling fragment server structure prediction">
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="/style.css" TITLE="style">
+<SCRIPT src="/scripts.js" language="Javascript1.2" type="text/javascript"></SCRIPT>
+
+
+
+<script language="Javascript">
+<!--//
+function jumpto(newlocation) {
+  if (newlocation != "") {
+    location.href = newlocation;
+  }
+}
+
+function validate() {
+  var confirmstr = "This option will continue your job for structure predictions.\n\n";
+  confirmstr += "To conserve computing resources, please continue only if necessary.\n\n";
+  confirmstr += "You must own this job for this option.\n\n";
+  confirmstr += "Do you want to continue?";
+  return confirm(confirmstr);
+}
+
+function validate_domain_for_modeling(cut,domain) {
+  var confirmstr = "This option will continue your job for predicting the structure of Domain " + domain + " from Ginzu Domain Prediction " + cut + ".\n\n";
+  confirmstr += "To conserve computing resources, you may only run one domain at a time, please continue only if necessary. You cannot change your selection after you decide to continue.\n\n";
+  confirmstr += "You must own this job for this option.\n\n";
+  confirmstr += "Do you want to continue?";
+  return confirm(confirmstr);
+}
+
+
+function openDisplayWindow(url, w, h) {
+        openedWindow  = window.open(url, "displaywin", "scrollbars,status,resizable,copyhistory,width=" + w + ",height=" + h);
+        openedWindow.focus();
+}
+
+//-->
+</script>
+
+</head>
+
+<body bgcolor="#ffffff"><a name="top">
+<table border=0 cellpadding=0 cellspacing=0>
+	<tr>
+		<td align=left>
+
+		<!-- START HEADER -->
+
+<map name="links">
+<area shape="rect" coords="1,1,428,111" href="/"> 
+<area shape="rect" coords="625,10,771,33" href="http://www.bakerlab.org/"> 
+</map>
+<img src="/images/top.jpg" border="0" usemap="#links">
+<br><br>
+
+
+ 
+
+		<!-- END HEADER   -->
+
+		</td>
+	</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0>
+        <tr>
+		<td colspan=2 valign=top>
+			
+		<!-- START NAVIGATION -->
+			
+	<table border=0 cellpadding=0 cellspacing=0 width=750>
+		<tr><td> &nbsp; &nbsp; &nbsp; </td>
+		    <td>
+                        <table border=0 cellpadding=2 cellspacing=0>
+                                <tr>
+
+					<!--<td>&nbsp;</td>-->
+					<td nowrap align=center colspan=2><font color=#9999bb><b>Structure Prediction</b></font></td>
+                                        <td>&nbsp;&nbsp;</td>
+					<td nowrap align=center colspan=2><font color=#9999bb><b>Fragment Libraries</b></font></td>
+                                        <td>&nbsp;&nbsp;</td>
+					<td nowrap align=center colspan=2><font color=#9999bb><b>Alanine Scanning</b></font></td>
+                                        <td>&nbsp;&nbsp;</td>
+                                        <td nowrap align=center colspan=2><font color=#9999bb><b>DNA Interface Scan</b></font></td>
+				</tr>
+				<tr>
+				<!--<td nowrap><a href="/" class=nav>[ Home ]</a></td>-->
+                                    <td nowrap align=right><a href="/queue.jsp" class=nav>[ Queue ]</a></td>
+				    <td nowrap align=left><a href="/submit.jsp" class=nav>[ Submit ]</a></td>
+                                    <td>&nbsp;&nbsp;</td>
+                                    <td nowrap align=right><a href="/fragmentqueue.jsp" class=nav>[ Queue ]</a></td>
+				    <td nowrap align=left><a href="/fragmentsubmit.jsp" class=nav>[ Submit ]</a></td>
+                                    <td>&nbsp;&nbsp;</td>
+                                    <td nowrap align=right><a href="/alascanqueue.jsp" class=nav>[ Queue ]</a></td>
+                                    <td nowrap align=left><a href="/alascansubmit.jsp" class=nav>[ Submit ]</a></td>
+                                    <td>&nbsp;&nbsp;</td>
+                                    <td nowrap align=right><a href="/dnainterfacescanqueue.jsp" class=nav>[ Queue ]</a></td>
+                                    <td nowrap align=left><a href="/dnainterfacescansubmit.jsp" class=nav>[ Submit ]</a></td>
+				</tr>
+			</table>
+			<table border=0 cellpadding=2 cellspacing=0>
+				<tr>
+                                    <td nowrap><a href="/register.jsp" class=nav>[ Register</a> / <a href="/update.jsp" class=nav>Update ]</a></td>
+                                    <td nowrap><a href="/documents.jsp" class=nav>[ Docs</a> / <a href="/faqs.jsp" class=nav>FAQs ]</a></td>
+                                    <td nowrap><a href="/login.jsp" class=nav>[ Logout ]</a> &nbsp; <span class=nav>protoxpire0</span></td>
+
+				</tr>
+			</table>
+		</td></tr>
+	</table>
+
+<!--
+<p><font size=+1>
+<font color=red>Robetta is not available for new jobs at the present while we upgrade the backend service.<br>We'll get things up and running as soon as possible, and apologize for any inconvenience.</font>
+-->
+	<br><br>
+
+
+
+		
+		<!-- END NAVIGATION   -->
+
+		</td>
+	</tr>
+	<tr>
+		<td> &nbsp; &nbsp; &nbsp; </td>
+		<td valign=top>
+
+		<!-- START MAIN BODY -->
+
+
+<table border=0 width="100%">
+  <tr><td align=left><a href="/queue.jsp?id=69292">Job 69292</a> [cuer-monomer]
+[2016-10-06]
+[public-118-60.nat.x.x]
+[Structure]
+[Complete]
+ 
+</td></tr>
+</table>
+
+
+
+
+<P><table border=0 cellpadding=2 cellspacing=0>
+  <tr><td valign=top>
+<form name="quicknav">
+<select name="selectnav" onchange="jumpto(quicknav.selectnav.options[quicknav.selectnav.options.selectedIndex].value);">
+<option value="">Jump To</option>
+<option value="">---------------------------------</option>
+<option value="#features_and_ss">* Features and SS</option>
+<option value="#dompreds">* Domain Predictions</option>
+<option value="#domrepeats"> &nbsp; &nbsp; -- &nbsp; Domain Repeats</option>
+<option value="#ginzu1"> &nbsp; &nbsp; -- &nbsp; Ginzu Domain Prediction 1</option>
+<option value="/domain.jsp?id=69292&cutid=78522&dom=1"> &nbsp; &nbsp; &nbsp; &nbsp; -- &nbsp; Domain 1 Results</option>
+<option value="/domain.jsp?id=69292&cutid=78522&dom=1#models"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -- &nbsp; Structure Predictions</option>
+<option value="/domain.jsp?id=69292&cutid=78522&dom=1#model1"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -- &nbsp; Model 1</option>
+<option value="/domain.jsp?id=69292&cutid=78522&dom=1#model2"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -- &nbsp; Model 2</option>
+<option value="/domain.jsp?id=69292&cutid=78522&dom=1#model3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -- &nbsp; Model 3</option>
+<option value="/domain.jsp?id=69292&cutid=78522&dom=1#model4"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -- &nbsp; Model 4</option>
+<option value="/domain.jsp?id=69292&cutid=78522&dom=1#model5"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -- &nbsp; Model 5</option>
+<option value="#taxonomy">* PSI-BLAST Sequence Hits</option>
+</select>
+</form>
+</table></P>
+
+
+
+
+<a name="models">
+<table cellpadding=10 cellspacing=0 border=0>
+<tr><td colspan=2><b>Full Structure Predictions</b> &nbsp; </td></tr>
+<tr>
+<td nowrap align=center>
+<a name="model1">Model 1<BR>
+<a href="" onclick="openModelViewer('69292','0','1'); return false;"><img src="/cgi-bin/modelimage.cgi?j=69292&m=1&w=120"></a><br>
+<a href="/servlet/robetta.Rasmol?j=69292&m=1"><img src="/images/rasmol.jpg" border=0 alt=" chemical/x-pdb  MIME type " title=" chemical/x-pdb  MIME type " align="absmiddle"></a>
+&nbsp;<a href="/servlet/robetta.Rasmol?j=69292&m=1&text=1" target=_blank><img src="/images/pdb.jpg" border=0 alt="PDB file" title="PDB file" align="absmiddle"></a>
+</td>
+<td nowrap align=center>
+<a name="model2">Model 2<BR>
+<a href="" onclick="openModelViewer('69292','0','2'); return false;"><img src="/cgi-bin/modelimage.cgi?j=69292&m=2&w=120"></a><br>
+<a href="/servlet/robetta.Rasmol?j=69292&m=2"><img src="/images/rasmol.jpg" border=0 alt=" chemical/x-pdb  MIME type " title=" chemical/x-pdb  MIME type " align="absmiddle"></a>
+&nbsp;<a href="/servlet/robetta.Rasmol?j=69292&m=2&text=1" target=_blank><img src="/images/pdb.jpg" border=0 alt="PDB file" title="PDB file" align="absmiddle"></a>
+</td>
+<td nowrap align=center>
+<a name="model3">Model 3<BR>
+<a href="" onclick="openModelViewer('69292','0','3'); return false;"><img src="/cgi-bin/modelimage.cgi?j=69292&m=3&w=120"></a><br>
+<a href="/servlet/robetta.Rasmol?j=69292&m=3"><img src="/images/rasmol.jpg" border=0 alt=" chemical/x-pdb  MIME type " title=" chemical/x-pdb  MIME type " align="absmiddle"></a>
+&nbsp;<a href="/servlet/robetta.Rasmol?j=69292&m=3&text=1" target=_blank><img src="/images/pdb.jpg" border=0 alt="PDB file" title="PDB file" align="absmiddle"></a>
+</td>
+<td nowrap align=center>
+<a name="model4">Model 4<BR>
+<a href="" onclick="openModelViewer('69292','0','4'); return false;"><img src="/cgi-bin/modelimage.cgi?j=69292&m=4&w=120"></a><br>
+<a href="/servlet/robetta.Rasmol?j=69292&m=4"><img src="/images/rasmol.jpg" border=0 alt=" chemical/x-pdb  MIME type " title=" chemical/x-pdb  MIME type " align="absmiddle"></a>
+&nbsp;<a href="/servlet/robetta.Rasmol?j=69292&m=4&text=1" target=_blank><img src="/images/pdb.jpg" border=0 alt="PDB file" title="PDB file" align="absmiddle"></a>
+</td>
+<td nowrap align=center>
+<a name="model5">Model 5<BR>
+<a href="" onclick="openModelViewer('69292','0','5'); return false;"><img src="/cgi-bin/modelimage.cgi?j=69292&m=5&w=120"></a><br>
+<a href="/servlet/robetta.Rasmol?j=69292&m=5"><img src="/images/rasmol.jpg" border=0 alt=" chemical/x-pdb  MIME type " title=" chemical/x-pdb  MIME type " align="absmiddle"></a>
+&nbsp;<a href="/servlet/robetta.Rasmol?j=69292&m=5&text=1" target=_blank><img src="/images/pdb.jpg" border=0 alt="PDB file" title="PDB file" align="absmiddle"></a>
+</td>
+</tr>
+</table>
+</P>
+
+
+<P>Click the icons below each image to <!--// either <a href="/faqs.jsp#rasmol">view structures with Rasmol</a>
+ ( <img src="/images/rasmol.jpg" border=0 alt="View with Rasmol Script" title="View with Rasmol Script" align="absmiddle"> ) or //--> download the prediction in PDB format
+ ( <img src="/images/pdb.jpg" border=0 alt="PDB file" title="PDB file" align="absmiddle"> ) </P>
+<P><small><I>Images were produced using <a href="http://www.avatar.se/molscript">MolScript</a> 
+and <a href="http://www.bmsc.washington.edu/raster3d/raster3d.html">Raster3D</a>!</I></small></P>
+
+<br><br>
+<a name="features_and_ss">
+<P>
+<table cellpadding=2 cellspacing=0>
+<tr><td colspan=2><b>Features and Secondary Structure</b> &nbsp;</td></tr> <tr bgcolor="#ffffff"><td nowrap> &nbsp; </td><td nowrap><pre class=sequence>1   .   10    .   20    .   30    .   40    .   50    .   60    .   70    .   80    .   90    .  100    .  110    .  120    .  130  </td></tr>
+<tr bgcolor="#cccccc"><td nowrap> &nbsp; </td><td nowrap><pre class=sequence>MNISDVAKITGLTSKAIRFYEEKGLVTPPMRSENGYRTYTQQHLNELTLLRQARQVGFNLEESGELVNLFNDPQRHSADVKRRTLEKVAEIERHIEELQSMRDQLLALANACPGDDSADCPIIENLSGCCHHRAG</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap> <a href="/documents.jsp#tmhmm">tmhmm</a> (0) </td><td nowrap bgcolor="#eeeeee"><pre class=sequence>---------------------------------------------------------------------------------------------------------------------------------------</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap> <a href="/documents.jsp#lowcomplexity">low complexity</a> (0%) </td><td nowrap bgcolor="#eeeeee"><pre class=sequence>---------------------------------------------------------------------------------------------------------------------------------------</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap> <a href="/documents.jsp#coils">coiled-coils</a> (23%) </td><td nowrap bgcolor="#eeeeee"><pre class=sequence>--------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX------------------------</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap> <a href="/documents.jsp#disordered">disordered</a> (9%) </td><td nowrap bgcolor="#eeeeee"><pre class=sequence>---------------------------------------------------------------------------X------------------------------------------------XXXXXXXXXXX</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap> <a href="/documents.jsp#psipred">psipred</a> </td><td nowrap bgcolor="#eeeeee"><pre class=sequence>--<font color="red">HHHHHHHH</font>---<font color="red">HHHHHHHHH</font>--------------<font color="blue">EE</font>--<font color="red">HHHHHHHHHHHHHHH</font>----<font color="red">HHHHHHHHH</font>--------<font color="red">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</font>---------<font color="red">HHHHHHHHHH</font>-----</td></tr>
+</table>
+</P>
+<P><pre class=sequence># SignalP-4.0 gram- predictions
+# Measure  Position  Value  Cutoff  signal peptide?
+  max. C    32	    0.102
+  max. Y    43	    0.119
+  max. S    31	    0.173
+  mean S     1-42   0.113
+       D     1-42   0.116    0.570  NO
+Name=tmp_signalp_seq	SP='NO' D=0.116 D-cutoff=0.570 Networks=SignalP-noTM
+</pre>
+<img align=top src="/servlet/robetta.ImageServlet?id=69292&src=signalp&img=png" border=0>
+<a name="dompreds">
+<br><br>
+<a name="domrepeats">
+<P>
+<table cellpadding=2 cellspacing=0>
+<tr><td align=left colspan=3><a href="/documents.jsp#domainrepeats">Domain Repeats</a> Prediction &nbsp; &nbsp; <a href="#top"><img src="/images/top.gif" border=0 alt="Top"></a> </td></tr>
+<tr bgcolor="#cccccc"><td nowrap align=center> &nbsp; Boundary &nbsp; </td><td nowrap align=center> &nbsp; STD (+/-) &nbsp; </td><td nowrap align=left> &nbsp; Consensus &nbsp; </td></tr>
+<tr bgcolor="#eeeeee"><td nowrap align=center>--</td><td nowrap align=center>--</td><td nowrap align=center>--</td></tr>
+</table>
+</P>
+<BR>
+<a name="ginzu1">
+
+<P>
+<table cellpadding=2 cellspacing=0>
+<tr><td align=left colspan=7><b>Ginzu Domain Prediction 1</b> &nbsp;  &nbsp; &nbsp; <a href="#top"><img src="/images/top.gif" border=0 alt="Top"></a> </td></tr>
+<tr bgcolor="#cccccc">
+<td align=center nowrap>Domain</td>
+<td align=center nowrap>Span</td>
+<td align=center nowrap>Source</td>
+<td align=center nowrap>Reference Parent</td>
+<td align=center nowrap> &nbsp; Parent Span &nbsp; </td>
+<td align=center nowrap> &nbsp; Confidence &nbsp; </td>
+<td nowrap> &nbsp; Annotations &nbsp; </td>
+</tr>
+<tr bgcolor="#eeeeee">
+<td align=center nowrap><form method="GET" action="domain.jsp"><input type="hidden" name="id" value="69292"><input type="hidden" name="cutid" value="78522"><input type="hidden" name="dom" value="1"><input type="submit" value=" domain 1 "></form></td>
+<td align=center nowrap valign=top> &nbsp; 1-135 &nbsp; </td>
+<td align=center nowrap valign=top> &nbsp; alignment &nbsp; </td>
+<td align=center nowrap valign=top> &nbsp; <a href="/pdb.jsp?pdbid=2DG6A_305" onclick="openPDBWindow('2DG6A_305',''); return false;">2dg6A_305</a> &nbsp; </td>
+<td align=center nowrap valign=top> &nbsp; 1-207 &nbsp; </td>
+<td align=center nowrap valign=top>0.6444</td>
+<td valign=top> &nbsp; GENE REGULATION</td>
+</tr>
+</table>
+<img align=top src="/servlet/robetta.ImageServlet?id=69292&cutsnum=1" border=0>
+</P>
+<BR>
+
+<a name="taxonomy">
+<P>
+<table cellpadding=2 cellspacing=0>
+<tr><td align=left colspan=11><b>PSI-BLAST Sequence Hits</b> (Top 20 by Identity) &nbsp; <a href="/taxonomy.jsp?id=69292">ALL DATA</a>
+&nbsp; &nbsp; &nbsp; <a href="#top"><img src="/images/top.gif" border=0 alt="Top"></a> </td></tr>
+<tr bgcolor="#cccccc">
+  <td align=center nowrap valign=middle rowspan=2> TaxID </td>
+  <td align=center nowrap valign=middle rowspan=2> Species </td>
+  <td align=center nowrap valign=middle rowspan=2> Alignments </td>
+  <td colspan=8>PSI-Blast Data (alignment with lowest E value)</td></tr>
+<tr bgcolor="#cccccc">
+  <td align=center nowrap>E value</td>
+  <td align=center nowrap>Query Span</td>
+  <td align=center nowrap>Sbjct Span</td>
+  <td align=center nowrap>Bit Score</td>
+  <td align=center nowrap>Identity</td>
+  <td align=center nowrap>HSP Length</td>
+  <td align=center nowrap>Accession</td>
+  <td>Description</td>
+</tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562" target="_blank">562</a></td><td nowrap>Escherichia coli</td><td nowrap align=right>14 (0.35%)</td><td nowrap>5E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>100</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=NP_415020.1" target="_blank">NP_415020.1</a>|</td><td>DNA-binding transcriptional activator of copper-responsive r...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=766146" target="_blank">766146</a></td><td nowrap>Shigella flexneri K-218</td><td nowrap align=right>1 (0.03%)</td><td nowrap>2E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>184</td><td nowrap>100</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001026748.1" target="_blank">WP_001026748.1</a>|</td><td>transcriptional regulator [Shigella flexneri] gb|EGJ91068.1|...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1182732" target="_blank">1182732</a></td><td nowrap>Escherichia coli KTE159</td><td nowrap align=right>2 (0.05%)</td><td nowrap>4E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>186</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001026744.1" target="_blank">WP_001026744.1</a>|</td><td>transcriptional regulator [Escherichia] gb|ELC22497.1| HTH-t...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=758832" target="_blank">758832</a></td><td nowrap>Escherichia coli ECC-Z</td><td nowrap align=right>1 (0.03%)</td><td nowrap>7E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_023568578.1" target="_blank">WP_023568578.1</a>|</td><td>DNA-binding transcriptional regulator CueR [Escherichia coli...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1169339" target="_blank">1169339</a></td><td nowrap>Escherichia coli KTE20</td><td nowrap align=right>1 (0.03%)</td><td nowrap>7E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001522052.1" target="_blank">WP_001522052.1</a>|</td><td>HTH-type transcriptional regulator CueR [Escherichia coli] g...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=754093" target="_blank">754093</a></td><td nowrap>Shigella dysenteriae 1617</td><td nowrap align=right>1 (0.03%)</td><td nowrap>1E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=YP_402115.1" target="_blank">YP_402115.1</a>|</td><td>DNA-binding transcriptional regulator CueR [Shigella dysente...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1328450" target="_blank">1328450</a></td><td nowrap>Escherichia coli BIDMC 39</td><td nowrap align=right>1 (0.03%)</td><td nowrap>1E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_023281031.1" target="_blank">WP_023281031.1</a>|</td><td>HTH-type transcriptional regulator CueR [Escherichia coli] g...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1169401" target="_blank">1169401</a></td><td nowrap>Escherichia coli KTE176</td><td nowrap align=right>1 (0.03%)</td><td nowrap>8E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001621270.1" target="_blank">WP_001621270.1</a>|</td><td>HTH-type transcriptional regulator CueR [Escherichia coli] g...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1116150" target="_blank">1116150</a></td><td nowrap>Escherichia coli P0298942.14</td><td nowrap align=right>1 (0.03%)</td><td nowrap>9E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001400000.1" target="_blank">WP_001400000.1</a>|</td><td>cu(I)-responsive transcriptional regulator [Escherichia coli...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1331064" target="_blank">1331064</a></td><td nowrap>Escherichia coli CE516</td><td nowrap align=right>1 (0.03%)</td><td nowrap>6E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_023486215.1" target="_blank">WP_023486215.1</a>|</td><td>HTH-type transcriptional regulator cueR [Escherichia coli] g...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=766141" target="_blank">766141</a></td><td nowrap>Shigella boydii 5216-82</td><td nowrap align=right>1 (0.03%)</td><td nowrap>6E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001026755.1" target="_blank">WP_001026755.1</a>|</td><td>transcriptional regulator [Shigella boydii] gb|EGI99228.1| c...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=656435" target="_blank">656435</a></td><td nowrap>Escherichia coli TA124</td><td nowrap align=right>1 (0.03%)</td><td nowrap>6E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001026741.1" target="_blank">WP_001026741.1</a>|</td><td>transcriptional regulator [Escherichia coli] gb|EHN84420.1| ...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1169321" target="_blank">1169321</a></td><td nowrap>Escherichia coli KTE114</td><td nowrap align=right>1 (0.03%)</td><td nowrap>7E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001026750.1" target="_blank">WP_001026750.1</a>|</td><td>DNA-binding transcriptional regulator CueR [Escherichia] gb|...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1314835" target="_blank">1314835</a></td><td nowrap>Escherichia coli MP1</td><td nowrap align=right>3 (0.07%)</td><td nowrap>5E-45</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>185</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=NP_752541.1" target="_blank">NP_752541.1</a>|</td><td>DNA-binding transcriptional regulator CueR [Escherichia coli...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1086030" target="_blank">1086030</a></td><td nowrap>Shigella flexneri 5a str. M90T</td><td nowrap align=right>2 (0.05%)</td><td nowrap>1E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>184</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001026746.1" target="_blank">WP_001026746.1</a>|</td><td>transcriptional regulator [Shigella flexneri] gb|EID61052.1|...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1116182" target="_blank">1116182</a></td><td nowrap>Escherichia coli P0304816.6</td><td nowrap align=right>1 (0.03%)</td><td nowrap>1E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>184</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_003919020.1" target="_blank">WP_003919020.1</a>|</td><td>cu(I)-responsive transcriptional regulator [Escherichia coli...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1281235" target="_blank">1281235</a></td><td nowrap>Escherichia coli UMEA 3292-1</td><td nowrap align=right>1 (0.03%)</td><td nowrap>1E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>184</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_021568653.1" target="_blank">WP_021568653.1</a>|</td><td>HTH-type transcriptional regulator CueR [Escherichia coli] g...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1116102" target="_blank">1116102</a></td><td nowrap>Escherichia coli p0305293.15</td><td nowrap align=right>1 (0.03%)</td><td nowrap>2E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>184</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001391119.1" target="_blank">WP_001391119.1</a>|</td><td>cu(I)-responsive transcriptional regulator [Escherichia coli...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1182724" target="_blank">1182724</a></td><td nowrap>Escherichia coli KTE144</td><td nowrap align=right>1 (0.03%)</td><td nowrap>2E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>184</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001599496.1" target="_blank">WP_001599496.1</a>|</td><td>HTH-type transcriptional regulator CueR [Escherichia coli] g...</td></tr>
+<tr bgcolor="#eeeeee"><td nowrap><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=754327" target="_blank">754327</a></td><td nowrap>Escherichia sp. TW09231</td><td nowrap align=right>1 (0.03%)</td><td nowrap>1E-44</td><td nowrap>1-135</td><td nowrap>1-135</td><td nowrap>184</td><td nowrap>99</td><td nowrap>135</td><td nowrap>ref|<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=WP_001026751.1" target="_blank">WP_001026751.1</a>|</td><td>DNA-binding transcriptional regulator CueR [Escherichia sp. ...</td></tr>
+</table>
+</P>
+
+
+
+<br><br>
+
+
+
+		<!-- END MAIN BODY   -->
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 valign=top>
+	
+		<!-- START FOOTER -->
+
+
+ 
+<br><br><br>
+<table border=0 cellpadding=5 cellspacing=5>
+<tr><td align=center><img src="/images/horzline_long.jpg" border=0><p>
+Robetta is available for NON-COMMERCIAL USE ONLY at this time
+<br><font color=#666688><b>[</b></font> <a href="/terms.jsp" class="nav">Terms of Service</a> <font color=#666688><b>]</b></font><br>
+<small>Copyright &copy; 2004-2011 University of Washington</small></center></td>
+</td></tr></table>
+
+
+
+		<!-- END FOOTER   -->
+
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+
+
+

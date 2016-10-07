@@ -1,0 +1,5 @@
+First attempt at using the FlexPepDock server
+PDB used: S_0006 from Fold And Dock protocol
+
+Mistakes were made:
+the monomer folded onto itself…
