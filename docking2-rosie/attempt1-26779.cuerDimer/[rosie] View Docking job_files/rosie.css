@@ -1,0 +1,25 @@
+
+
+
+text_results, json {
+  font-family: Monaco, 'Liberation Mono', Courier, monospace;
+  font-size:12px;
+  /* display: block; */
+  white-space: pre-wrap;
+  display: block;
+  background-color: #eee;
+
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 19px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 10px;
+max-width: 100%;
+}

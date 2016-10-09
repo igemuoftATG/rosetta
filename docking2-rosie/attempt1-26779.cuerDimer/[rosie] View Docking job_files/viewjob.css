@@ -1,0 +1,11 @@
+/* meta controller viewjob template css */
+.grey_bg { background-color:#bbd; margin:0;  padding:0; }
+
+.footer {
+	background: #fff;
+	padding: 10px;
+	color:#888888;
+	font-size:90%;
+}
+
+.job_failure_error { background-color:#f22; margin:0;  padding:0; font-size:150% }

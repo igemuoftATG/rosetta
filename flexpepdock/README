@@ -3,3 +3,6 @@ PDB used: S_0006 from Fold And Dock protocol
 
 Mistakes were made:
 the monomer folded onto itself…
+
+conclusions:
+flexdock it not great for this kind of application because the monomer is barely changing when docking

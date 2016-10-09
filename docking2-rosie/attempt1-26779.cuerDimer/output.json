@@ -1,0 +1,38 @@
+{
+  "cpu_usage": 0.16861111111111116, 
+  "docked_proteins": [
+    "output/trigger-00001.dock/proteins_0007.pdb", 
+    "output/trigger-00001.dock/proteins_0009.pdb", 
+    "output/trigger-00001.dock/proteins_0018.pdb", 
+    "output/trigger-00001.dock/proteins_0011.pdb", 
+    "output/trigger-00001.dock/proteins_0016.pdb", 
+    "output/trigger-00001.dock/proteins_0023.pdb", 
+    "output/trigger-00001.dock/proteins_0024.pdb", 
+    "output/trigger-00001.dock/proteins_0008.pdb", 
+    "output/trigger-00001.dock/proteins_0001.pdb", 
+    "output/trigger-00001.dock/proteins_0006.pdb", 
+    "output/trigger-00001.dock/proteins_0025.pdb", 
+    "output/trigger-00001.dock/proteins_0022.pdb", 
+    "output/trigger-00001.dock/proteins_0017.pdb", 
+    "output/trigger-00001.dock/proteins_0010.pdb", 
+    "output/trigger-00001.dock/proteins_0019.pdb", 
+    "output/trigger-00001.dock/proteins_0021.pdb", 
+    "output/trigger-00001.dock/proteins_0013.pdb", 
+    "output/trigger-00001.dock/proteins_0014.pdb", 
+    "output/trigger-00001.dock/proteins_0005.pdb", 
+    "output/trigger-00001.dock/proteins_0002.pdb", 
+    "output/trigger-00001.dock/proteins_0015.pdb", 
+    "output/trigger-00001.dock/proteins_0012.pdb", 
+    "output/trigger-00001.dock/proteins_0020.pdb", 
+    "output/trigger-00001.dock/proteins_0003.pdb", 
+    "output/trigger-00001.dock/proteins_0004.pdb"
+  ], 
+  "essential": [
+    "trigger-00000.docking_prepack/proteins_prepacked.pdb", 
+    "trigger-00001.dock/score.sf"
+  ], 
+  "log": "\nCould not find essential file trigger-00000.docking_prepack/proteins_prepacked.pdb in DB!\n", 
+  "prepak.pdb": "output/trigger-00000.docking_prepack/proteins_prepacked.pdb", 
+  "score.sf": "output/trigger-00001.dock/score.sf", 
+  "status": 0
+}
