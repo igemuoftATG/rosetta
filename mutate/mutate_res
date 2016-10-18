@@ -1,0 +1,9 @@
+from rosetta import *
+init()
+from toolbox import *
+GolS = Pose()
+GolS = pose_from_pdb("gols2.pdb")
+mutate_residue(GolS, 113, "T" )
+    #n = residue number
+    #AA = one letter code for amino acid being converted
+GolS.dump_pdb("A113T")

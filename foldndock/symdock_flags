@@ -1,0 +1,10 @@
+-in:file:s
+-in:file:native
+-database
+-symmetry:symmetry:definition
+-packing:ex1
+-packing:ex2aro
+-out:nstruct
+-out:file:fullatom
+-symmetry:initialize_rigid_body_dofs
+-symmetry:symmetric_rmsd
