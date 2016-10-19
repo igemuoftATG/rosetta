@@ -1,0 +1,360 @@
+@<TRIPOS>MOLECULE
+1N8N_AU3_A_292
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:1N8N:A:292 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU          5.6730   12.7630   48.2970 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+1RM7_AU3_?_320
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:1RM7:?:320 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         19.6040    9.8620   18.4290 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+1RM7_AU3_?_321
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:1RM7:?:321 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         18.8680   -5.0260   -7.1150 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+1RM7_AU3_?_322
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:1RM7:?:322 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         17.3260   -1.6960   -7.2030 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+2B8J_AU3_A_321
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:2B8J:A:321 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         20.6660   -5.5140   -8.7150 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+2OIJ_AU3_A_102
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:2OIJ:A:102 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU        -11.3070   59.3300  -69.8720 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+2OIJ_AU3_B_101
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:2OIJ:B:101 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         -8.3600   57.2200  -44.9560 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3H7G_AU3_A_201
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3H7G:A:201 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         18.6680   -4.4340   37.9820 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3H7G_AU3_A_202
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3H7G:A:202 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         21.9510   -4.3290   39.2420 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3H7G_AU3_A_203
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3H7G:A:203 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         34.9330   27.5960   34.5820 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3H7G_AU3_A_204
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3H7G:A:204 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         36.8860   29.4760   32.0730 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3H7G_AU3_A_205
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3H7G:A:205 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         16.4610    6.3590   44.5010 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3H7G_AU3_A_206
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3H7G:A:206 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         18.6800   -6.8000   39.3040 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P4Z_AU3_A_305
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P4Z:A:305 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         -8.2530  -31.4570    1.6220 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P64_AU3_A_301
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P64:A:301 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         11.7710  -11.6440   -4.6960 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P64_AU3_A_302
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P64:A:302 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         -8.2860  -31.4520    1.4850 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P64_AU3_A_313
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P64:A:313 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU        -11.2020  -29.1530   15.8420 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P65_AU3_A_301
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P65:A:301 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         -8.3250  -31.4900    1.6970 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P65_AU3_A_302
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P65:A:302 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         11.7420  -11.6920   -4.7060 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P65_AU3_A_303
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P65:A:303 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU        -11.2170  -29.1890   15.8940 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P65_AU3_A_310
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P65:A:310 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU          8.0380  -14.1520   -3.4340 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_301
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:301 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         11.5960  -11.6780   -4.7290 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_302
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:302 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         -8.3190  -31.4870    1.5920 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_303
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:303 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU        -11.2490  -29.1000   15.9500 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_304
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:304 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         10.5560   -5.5830   -3.1270 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_305
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:305 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         13.8870  -14.6580    1.7690 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_306
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:306 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU          5.2890   -5.9200   -2.1090 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_307
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:307 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU          7.9910  -14.1050   -3.4420 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P66_AU3_A_308
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P66:A:308 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         11.4020  -13.3890   13.3860 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P68_AU3_A_1301
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P68:A:1301 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         -8.3030  -31.4650    1.5560 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P68_AU3_A_1302
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P68:A:1302 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         11.6160  -11.6280   -4.7860 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P68_AU3_A_1303
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P68:A:1303 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         10.3800   -5.5630   -3.0910 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P68_AU3_A_1304
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P68:A:1304 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU        -11.3720  -29.0310   16.0320 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P68_AU3_A_1305
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P68:A:1305 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU         13.6640  -14.7260    1.5470 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P68_AU3_A_1306
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P68:A:1306 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU          5.4270   -5.8330   -2.0000 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
+@<TRIPOS>MOLECULE
+3P68_AU3_A_1307
+ 1 0 0 0 0
+SMALL
+GASTEIGER
+****
+Coordinates from PDB:3P68:A:1307 Model:1 without hydrogens
+@<TRIPOS>ATOM
+      1 AU          7.7480  -14.0320   -3.4410 Au      1  LIG1        0.0000
+@<TRIPOS>BOND
